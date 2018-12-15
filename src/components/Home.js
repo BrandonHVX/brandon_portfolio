@@ -1,55 +1,58 @@
-import React, { Component } from 'react';
-
-import scrollToComponent from 'react-scroll-to-component';
+import React, {Component } from 'react';
 import Projects from './Projects.js';
-;
+import NavBar from './NavBar.js';
+import Fade from 'react-reveal/Fade';
+import TransitionGroup from 'react-addons-transition-group';
 
-class Home extends Component {
+import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
 
-  scrollToTopWithCallback() {
-    let scroller = scrollToComponent(this.Violet, { offset: 0, align: 'top', duration: 1500});
-    scroller.on('end', () => console.log('Scrolling end!') );
+class Box extends React.Component {
+    componentWillEnter (callback) {
+      const el = this.container;
+      TweenMax.fromTo(el, 0.3, {y: 100, opacity: 0}, {y: 0, opacity: 1, onComplete: callback});
+    }
+  
+    componentWillLeave (callback) {
+      const el = this.container;
+      TweenMax.fromTo(el, 0.3, {y: 0, opacity: 1}, {y: -100, opacity: 0, onComplete: callback});
+    }
+  
+    render () {
+      return <div className="box" ref={c => this.container = c}/>;
+      
+    }
   }
-
-
-  render() {
-
-
-
-    return(
-      <div class="home">
-   
-      
-   <div class="intro">
-  Motivated individual experienced in video production. Interested in videographer/editor
-  position with potential for advancement and the ability to utilize and enhance existing skills. 
-  Skilled in cross-functional and team collaboration for preparation of interviews, commercials, 
-  short films and music videos with the use of interpersonal and customer services skills to enhance 
-  client experience. 
-
-  </div>
   
 
+class Home extends Component{
 
-  <div class="center-button">
+  state = {
+    shouldShowBox: true
+  };
 
+  toggleBox = () => {
+    this.setState({
+      shouldShowBox: !this.state.shouldShowBox
+    });
+  };
 
-          <button class="button" onClick={() => scrollToComponent(this.Blue, 
-            { offset: 0, align: 'top', duration: 500, ease:'inExpo'})}>View My Work</button>
-  
-</div>
+  render () {
+    return <div className="page">
 
+        <TransitionGroup>
+        { this.state.shouldShowBox && <Box />}
+        </TransitionGroup>
 
-
-
-<div className="project-page"> 
-
-<section className='projects' ref={(section) => { this.Blue = section; }}><Projects /></section></div>
-</div>
- 
-      
-    )
+    
+      <button
+        className="toggle-btn"
+        onClick={this.toggleBox}
+      >
+        toggle
+      </button>
+    </div>;
   }
 }
+
 
 export default Home;
