@@ -26,7 +26,7 @@ class Landing extends Component {
        client experience. 
     </div>
       <div class="center-button">
-      <button class="button"  onClick={() => scrollToComponent(this.Blue, { offset: 0, align: 'bottom', duration: 500, ease:'inExpo'})}>View My Work</button>
+      <button class="button"  onClick={() => scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease:'inExpo'})}>View My Work</button>
       
     </div>
 
