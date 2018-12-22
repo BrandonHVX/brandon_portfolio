@@ -1,4 +1,156 @@
-.project-page {
-    margin-top: 250px;
+
+
+.projects {
+   
+    background-color: white;
+    margin: 100px 10px 10px 10px;
+    padding: 15px;
+    border-radius: 50px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.projects-page  {
+	
+   
+  height: 200px;
+  padding: 20px;
+    
+  
 
 }
+
+.tab-list {
+   
+    padding-left: 0;
+    font-size: 15px;
+ 
+     
+  
+  }
+  
+  .tab-list-item {
+    display: inline-block;
+    list-style: none;
+    color: black;
+    padding: 0.5rem 0.75rem;
+ 
+   
+  }
+
+
+
+
+  
+  .tab-list-active {
+   
+   background: white;
+  }
+
+
+
+  .tabs {
+
+    position: relative;
+    height: 100vh;
+    
+   
+    
+    
+  }
+.body-salon {
+  display: flex;
+  min-height: 200px;
+  flex-direction: column;
+  margin: 0;
+
+  color: black;
+}
+
+
+
+.projects-menu,
+.projects-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  left: 20px;
+  bottom: 40px;
+  z-index: 9999;
+  background: rgba(43, 18, 18, 0.3);
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.projects-menu .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.projects-menu.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+
+.projects-menu.open .bar2 {
+  opacity: 0;
+}
+
+.projects-menu.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+#main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  #main > article {
+    flex: 1;
+    margin-left:0px;
+    font-size: 15px;
+    text-align: center;
+    max-width: 600px;
+   
+  }
+  
+  header h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: din-condensed, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 60px;
+      
+  }
+  
+  
+  #main > nav, 
+  #main > aside {
+    background: color;
+    margin-right:0px;
+   
+  
+  }
+  #main > nav {
+    order: -1;
+  }
+
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  @media only screen and (max-device-width: 450px) {
+    .projects-page {
+    
+       
+    
+    }
+    
+  }

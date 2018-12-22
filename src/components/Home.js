@@ -1,55 +1,31 @@
-import React, { Component } from 'react';
-
-import scrollToComponent from 'react-scroll-to-component';
+import React, {Component } from 'react';
 import Projects from './Projects.js';
-;
+import Navi from './Navi.js';
+import NavBar from './NavBar.js';
+import { CSSTransitionGroup } from 'react-transition-group'
+import { Link } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
+import Menu from './Menu';
+import Popup from "reactjs-popup";
+import SkillsIcon from './SkillsIcon.js';
 
-class Home extends Component {
 
-  scrollToTopWithCallback() {
-    let scroller = scrollToComponent(this.Violet, { offset: 0, align: 'top', duration: 1500});
-    scroller.on('end', () => console.log('Scrolling end!') );
-  }
+
+class Home extends Component{
+
 
 
   render() {
-
-
-
     return(
-      <div class="home">
+      <div>
+        
+        
+      <NavBar />
    
-      
-   <div class="intro">
-  Motivated individual experienced in video production. Interested in videographer/editor
-  position with potential for advancement and the ability to utilize and enhance existing skills. 
-  Skilled in cross-functional and team collaboration for preparation of interviews, commercials, 
-  short films and music videos with the use of interpersonal and customer services skills to enhance 
-  client experience. 
-
-  </div>
-  
-
-
-  <div class="center-button">
-
-
-          <button class="button" onClick={() => scrollToComponent(this.Blue, 
-            { offset: 0, align: 'top', duration: 500, ease:'inExpo'})}>View My Work</button>
-  
-</div>
-
-
-
-
-<div className="project-page"> 
-
-<section className='projects' ref={(section) => { this.Blue = section; }}><Projects /></section></div>
-</div>
- 
-      
+    </div>
     )
   }
 }
+
 
 export default Home;
