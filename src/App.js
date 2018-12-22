@@ -5,6 +5,7 @@ import Popup from "reactjs-popup";
 import Hello from './components/Hello';
 import Menu from './components/Menu';
 import Projects from './components/Projects';
+import Home from './components/Home';
 import Landing from './components/Landing';
 import BurgerIcon from './components/BurgerIcon';
 import scrollToComponent from 'react-scroll-to-component';
@@ -28,8 +29,9 @@ class App extends Component {
    return (
     
     <div>
-      <div class="head">
-          <Hello name="BRANDON GINES" />
+      
+      
+      <div class="head"><Hello name="BG" />
             <Popup
             modal
             overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
@@ -41,7 +43,7 @@ class App extends Component {
       </div>
 
           <section className='violet' ref={(section) => { this.Violet = section; }}>  
-          <Fade left>    <Landing /></Fade>      
+              
           </section>
         
         

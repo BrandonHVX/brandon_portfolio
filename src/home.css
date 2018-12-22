@@ -1,5 +1,20 @@
+.example-enter {
+  opacity: 0.01;
+}
 
-   
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
 
 .box {
     width: 100vw;
@@ -16,6 +31,17 @@
   .toggle-btn {
     position: absolute;
     top: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 80px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .toggle-btn2 {
+    position: absolute;
+    top: 80px;
     right: 0;
     left: 0;
     margin: auto;
