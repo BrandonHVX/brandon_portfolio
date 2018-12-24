@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
 import './home.css';
+import './webdev.css';
+import './synergy.css';
 import './projects.css';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';

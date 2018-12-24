@@ -1,0 +1,105 @@
+
+.column {
+    float: left;
+    width: 40.33%;
+    padding: 2px;
+  }
+
+
+
+  .column-logo {
+    float: left;
+text-align: center;
+    margin-top: 90px;
+    width: 50.33%;
+   
+  }
+  .column-logo p{
+
+    padding-top: 10px;
+    font-size: 10px;
+ 
+   
+  }
+
+  .synphone {
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 30px;
+    justify-content: left;
+ 
+   }
+
+   .synlogo {
+    width: 90%;
+    padding-left: 20px;
+    justify-content: left;
+   
+   }
+
+
+
+
+  
+
+
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   
+  .wrapper {
+    display: flex;
+  margin-top: 90px; 
+    flex-flow: row wrap;
+    font-weight: bold;
+    background-color:deepskyblue;
+    
+  }
+  
+  
+    
+    .wrapper > * {
+      padding: 10px;
+      flex: 2 100%;
+    }
+    
+    .header {
+      background: tomato;
+      font-size: 20px;
+    }
+    
+    .footer {
+      background: lightgreen;
+    }
+    
+    .main {
+    
+  
+      background: deepskyblue;
+    }
+    
+ 
+    
+    
+    .aside-2 {
+      background: deepskyblue;
+      margin: 20px;
+      font-size: 20px;
+   
+    }
+    
+    @media all and (min-width: 600px) {
+      .aside { flex: 1 0 0; }
+    }
+    
+    @media all and (min-width: 800px) {
+      .main    { flex: 3 0px; }
+      .aside-1 { order: 1; } 
+      .main    { order: 2; }
+      .aside-2 { order: 3; }
+      .footer  { order: 4; }
+    }

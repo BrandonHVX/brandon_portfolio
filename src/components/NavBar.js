@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Salon from './Salon.js';
+import Projects from './Projects.js';
 import Fade from 'react-reveal/Fade';
 
 
@@ -19,18 +20,18 @@ class NavBar extends Component {
          <div class="ct" id="t5">
          <Fade right><ul id="menu">
 
-            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li></a>
-            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li></a>
-            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li></a>
-            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li></a>
+            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
+            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>UI DESIGN</a>
+            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>DIGITAL MEDIA</a>
+            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>CONTACT</a>
           </ul></Fade> 
           <div class="page" id="p1">
-            <Fade><section class="icon fa fa-bolt"><span class="title">Bolt</span>
-             <span class="hint">Like this pen to see the magic!... Just kidding, it won't happen anything but I'll be really happy If you do so.</span>
+            <Fade><section class="icon fa fa-bolt"><span class="title">Web Development</span>
+             <span class="hint"> <Projects /></span>
              </section></Fade>   
      </div>
-     <div class="page" id="p2">
-            <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
+    <div class="page" id="p2">
+         <Fade>    <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section></Fade>  
           </div>
      <div class="page" id="p3">
             <section class="icon fa fa-rocket"><span class="title"><Salon /></span></section>
