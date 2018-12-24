@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family:'Open Sans Condensed', sans-serif;
-background: aqua;
+  background: aqua;
 }
 
 html, body, .page {
@@ -14,7 +14,7 @@ html, body, .page {
   -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
-  color: #fff;
+ 
   overflow: hidden; 
 }
 
@@ -33,6 +33,12 @@ html, body, .page {
   
   }
 
+.webdev {
+  overflow: scroll;
+}
+
+
+  
   .center-button {
 	
     display: flex;
@@ -118,7 +124,8 @@ html, body, .page {
  
 
   font-size: 45px;
-  color:rgba(0,0,0,0.5);
+  color: black;
+ ]
   border-radius: 80px;
  
 
@@ -139,7 +146,7 @@ html, body, .page {
   font-size: 43px;
   text-align: center;
   right: 20px;
-  top: 40px;
+  top: 10px;
   z-index: 9999;
   border-radius: 100px;
   height: 60px;
@@ -171,27 +178,6 @@ html, body, .page {
 
 /* Menu */
 
-.menu {
-  width: 100%;
-  display: block;
-  text-align: center;
-
-}
-.menu ul {
-  position: relative;
-  top: 0px;
-  font-size: 24px;
-  padding: 0px;
-}
-.menu li {
-  list-style: outside none none;
-  margin: 10px 0px;
-  padding: 0;
-  cursor: pointer;
-}
-.menu li:hover {
-  color: #ff0000;
-}
 
 
 /* Media/Phone */
@@ -236,11 +222,14 @@ html, body, .page {
 
 .page {
   position: fixed;
-  overflow: scroll;
+  
+
+ 
 }
 
 #p1 {
   right: 0;
+  overflow: scroll;
   
 }
 
@@ -249,7 +238,8 @@ html, body, .page {
 
 }
 
-#p1 { background: darkslateblue; }
+#p1 { background: white; 
+ }
 #p2 { background: tomato; }
 #p3 { background: gold; }
 #p4 { background: deeppink; }
@@ -270,7 +260,8 @@ html, body, .page {
 #t3:target #p1,
 #t4:target #p1,
 #t5:target #p1{
-  background: black;
+  background: white;
+
 }
 
 #t2:target #p1 .icon, 
@@ -295,7 +286,7 @@ ul .icon:hover {
 .page .icon .title {
   line-height: 2;
 }
-
+#t1:target ul .icon,
 #t2:target ul .icon,
 #t3:target ul .icon,
 #t4:target ul .icon,
@@ -321,11 +312,13 @@ ul {
   list-style: none;
   position: fixed;
   z-index: 1;
-  
+  right: 0;
+
   bottom: 0;
   display: flex;
   padding-bottom: 5px;
   padding-top: 10px;
+ 
   margin: auto;
   justify-content: center;
   background-color: black;
@@ -339,10 +332,8 @@ height: 45px;
 
 #menu .icon {
 
-  margin: 0;
   display: flex;
- 
-  padding: 2px 52px 2px 2px;
+
   justify-content: center;
   transition: all .5s ease-out !important;
   -webkit-transition: all .5s ease-out;
@@ -352,6 +343,9 @@ height: 45px;
 
 a {
   text-decoration: none;
+  padding-left: 40px;
+  color: white;
+  
 }
 
 .title, .hint {
@@ -359,7 +353,12 @@ a {
 }
 
 .title {
-  font-size: 38px;
+  font-size: 30px;
+ background: #fff;
+ width: 100vw;
+  padding: 20px;
+  position: fixed;
+
 }
 
 .hint {
@@ -388,7 +387,7 @@ a {
 
 .page .icon {
   position: absolute;
-  top: 50px;
+  top: 0px;
 
   left: 0;
   right: 0;
@@ -409,7 +408,7 @@ a {
 }
 
 .page#p1 .icon {
-  height: 220px;
+  height: 0;
 }
 
 .page#p1 .icon {
@@ -429,33 +428,123 @@ a {
 
 
 
-@media only screen and (max-device-width: 300px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 667px) { 
+  
+  #menu .icon {
+
+    display: flex;
+
+    justify-content: center;
+    transition: all .5s ease-out !important;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px 30px 25px ;
+    font-size: 15px;
+    
+  }
+
   ul {
     list-style: none;
     position: fixed;
     z-index: 1;
-    top: 5;
+    right: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
+  
+    padding-bottom: 30px;
+    padding-top: 10px;
+   
+ 
+   
+    background-color: black;
+  height: 40px;
+   
     text-align: center;
     
   }
+  
+
+}
 
 
 
 
 
 
+@media only screen 
+and (min-device-width : 320px) 
+ { 
+  
+  #menu .icon {
 
+    display: flex;
 
+    justify-content: center;
+    transition: all .5s ease-out !important;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 30px 20px ;
+    font-size: 10px;
+    
+  }
+
+  ul {
+    list-style: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+  
+    padding-bottom: 30px;
+    padding-top: 10px;
+   
+ 
+   
+    background-color: black;
+  height: 40px;
+   
+    text-align: center;
+    
+  }
+  
+
+}
 
 
 
 
   
-}
-
 
 
 
