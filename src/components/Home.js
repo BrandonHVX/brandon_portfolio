@@ -10,6 +10,7 @@ import Menu from './Menu';
 import Popup from "reactjs-popup";
 import WebDev from './WebDev.js';
 import BurgerIcon from './BurgerIcon';
+import DigitalMedia from './DigitalMedia.js';
 
 
 
@@ -23,29 +24,63 @@ class Home extends Component{
   render() {
     return(
  
-      <div id="navi">
-   <div class="ct" id="t1">
-  <div class="ct" id="t2" >
-    <div class="ct" id="t3">
-      <div class="ct" id="t4">
-         <div class="ct" id="t5">
-         <Fade right><ul id="menu">
+    <div id="navi">
+              <div class="ct" id="t1">
+              <div class="ct" id="t2" >
+              <div class="ct" id="t3">
+              <div class="ct" id="t4">
+              <div class="ct" id="t5">
+         
+         
+         <Fade right>
+         
+            <ul id="menu">
 
-            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
-            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>UI DESIGN</a>
-            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>DIGITAL MEDIA</a>
-            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>CONTACT</a>
-          </ul></Fade> 
-          <div class="page" id="p1">
-            <Fade><section class="icon fa fa-bolt"><span class="title">Web Development</span>
-             <span class="hint"> <WebDev /></span>
-             </section></Fade>   
-     </div>
-    <div class="page" id="p2">
-         <Fade>    <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section></Fade>  
-          </div>
+              <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
+              <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>UI DESIGN</a>
+              <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>DIGITAL MEDIA</a>
+              <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>CONTACT</a>
+            </ul>
+          
+          </Fade> 
+
+
+      <div class="page" id="p1"><span class="title">Web Development</span>
+          <Fade>
+            
+            <section>
+                
+                <span class="hint"> <WebDev /></span>
+            </section>
+             
+          </Fade>   
+      </div>
+    
+    
+      <div class="page" id="p2">
+
+         <Fade>   
+          
+            <section>
+           
+            </section>
+
+         </Fade>  
+
+      </div>
+     
+     
      <div class="page" id="p3">
-            <section class="icon fa fa-rocket"><span class="title"><Salon /></span></section>
+           
+     
+            <section >
+            <span class="title">Digital Media</span>
+            <span class="hint"> <DigitalMedia /></span>
+            </section>
+
+
+
+           
           </div> 
 
                   <div class="page" id="p4">

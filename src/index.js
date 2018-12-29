@@ -6,6 +6,7 @@ import './home.css';
 import './webdev.css';
 import './synergy.css';
 import './projects.css';
+import './digimedia.css';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';
 import Salon from './components/Salon.js';
@@ -17,10 +18,15 @@ import BurgerIcon from './components/BurgerIcon';
 import Menu from './components/Menu';
 import Fade from '@material-ui/core/Fade';
 import SkillsIcon from './components/SkillsIcon.js';
+import Hello from './components/Hello';
 
 const contentStyle = {
     background: "none",
-    border: "none"
+    width: 300,
+    
+    margin: "auto",
+    border: "none", 
+    padding: 0,
   };
   
 
@@ -33,10 +39,21 @@ class App extends React.Component {
     render() {
       return (        <div>
        
-
+       <div class="head"><Hello name="BG" />
+            <Popup
+            modal
+            overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
+            contentStyle={contentStyle}
+            closeOnDocumentClick={false}
+            trigger={open => <BurgerIcon open={open} />}>
+            {close => <Menu close={close} />}
+          </Popup>
+      </div>
         <BrowserRouter>
          
           <div>
+
+
             <Route path="/" exact component={Landing} />
             <Route path="/projects" component={Home} />
            

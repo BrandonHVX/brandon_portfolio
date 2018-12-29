@@ -1,13 +1,17 @@
-import React , {Component} from "rect";
-
+import React , {Component} from "react";
+import SalonCard from "./SalonCard.js";
 
 class DigitalMedia extends Component {
     render (){
         return (
-            <div> 
+         
+            
+            <div class="digitalmedia"> 
 
+                    
+            
 
-
+                    <SalonCard />
 
             </div>
         )

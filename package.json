@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
     "gsap": "^2.0.2",
     "rc-banner-anim": "^2.1.2",
     "react": "^16.6.3",
     "react-addons-transition-group": "^15.6.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
     "react-plyr": "^2.1.1",
     "react-reveal": "^1.2.2",

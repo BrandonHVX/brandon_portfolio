@@ -24,10 +24,9 @@ class Synergy extends Component {
       <div class="column-logo">
     
            <img src={synergylogo} className="synlogo" alt="logo" />
-           <p>Skilled in cross-functional and team collaboration for preparation of interviews, commercials, 
-      short films and music videos with the use of interpersonal and customer services skills to enhance 
-       client experience.</p>
+        
       </div>
+   
   
 </div>
 
@@ -41,7 +40,7 @@ class Synergy extends Component {
 
 
      </div>
-       
+    
             <aside class="aside aside-2">   Motivated individual experienced in video production. Interested in videographer/editor
       position with potential for advancement and the ability to utilize and enhance existing skills. 
       Skilled in cross-functional and team collaboration for preparation of interviews, commercials, 

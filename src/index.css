@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family:'Open Sans Condensed', sans-serif;
-  background: aqua;
+  background: white;
 }
 
 html, body, .page {
@@ -32,10 +32,6 @@ html, body, .page {
   
   
   }
-
-.webdev {
-  overflow: scroll;
-}
 
 
   
@@ -125,7 +121,7 @@ html, body, .page {
 
   font-size: 45px;
   color: black;
- ]
+ 
   border-radius: 80px;
  
 
@@ -135,18 +131,74 @@ html, body, .page {
 
 
 
+.menu {
 
+  
+}
+.menu ul {
 
-
-.burger-menu,
-.burger-menu.open {
-  display: inline-block;
+}
+.menu li {
+  list-style: outside none none;
+ 
+  padding: 0;
   cursor: pointer;
+}
+.menu li:hover {
+  color: #ff0000;
+}
+
+
+.burger-menu {
+  display: inline-block;
+
   position: fixed;
   font-size: 43px;
   text-align: center;
   right: 20px;
   top: 10px;
+  z-index: 9999;
+  
+  border-radius: 100px;
+  height: 60px;
+  width: 60px;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+ 
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+  
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.burger-menu.open {
+  display: inline-block;
+
+  position: fixed;
+  font-size: 43px;
+  text-align: center;
+  right: 20px;
+  top: 10px;
+  transition: visibility 0s 1s, opacity 1s linear;
   z-index: 9999;
   border-radius: 100px;
   height: 60px;
@@ -156,73 +208,39 @@ html, body, .page {
 .burger-menu .bar1,
 .bar2,
 .bar3 {
-  background-color: white;
-  margin: 0px 0;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
   transition: 0.4s;
+  right: 20px;
+  top: 10px;
+  background: #FFF;
 }
 
 
-.burger-menu.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-  transform: rotate(-45deg) translate(-4px, 4px);
-}
-
-.burger-menu.open .bar2 {
+.burger-menu.open .avi {
+  visibility: hidden;
+  right: 20px;
+  top: 10px;
   opacity: 0;
+  transition: visibility 0s .3s, opacity .3s linear;
 }
 
-.burger-menu.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -6px);
-  transform: rotate(45deg) translate(-6px, -6px);
+
+.profile-page{
+  display: flex-wrap;
+  overflow: scroll;
+ 
 }
 
 /* Menu */
 
 
 
-/* Media/Phone */
-
-.skills-menu,
-.skills-menu.open {
-  display: inline-block;
-  cursor: pointer;
-  position: fixed;
-  right: 20px;
-  bottom: 40px;
-  z-index: 9999;
-  background: rgba(43, 18, 18, 0.3);
-  padding: 10px;
-  border-radius: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.skills-menu .bar1,
-.bar2,
-.bar3 {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 4px 0;
-  transition: 0.4s;
-}
-
-.skills-menu.open .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
-  transform: rotate(-45deg) translate(-4px, 4px);
-}
-
-.skills-menu.open .bar2 {
-  opacity: 0;
-}
-
-.skills-menu.open .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -6px);
-  transform: rotate(45deg) translate(-6px, -6px);
-}
 
 .page {
   position: fixed;
-  
+  margin-top: 90px;
 
  
 }
@@ -230,16 +248,21 @@ html, body, .page {
 #p1 {
   right: 0;
   overflow: scroll;
-  
+ height: 525px;
 }
 
 #p2, #p3, #p4, #p5 {
   left: 190%;
+  overflow: scroll;
+  
+
+
 
 }
 
-#p1 { background: white; 
- }
+
+
+#p1 { background: lightblue; }
 #p2 { background: tomato; }
 #p3 { background: gold; }
 #p4 { background: deeppink; }
@@ -316,8 +339,8 @@ ul {
 
   bottom: 0;
   display: flex;
-  padding-bottom: 5px;
-  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-top: 30px;
  
   margin: auto;
   justify-content: center;
@@ -348,21 +371,21 @@ a {
   
 }
 
-.title, .hint {
-  display: block;
-}
+
 
 .title {
-  font-size: 30px;
- background: #fff;
+ font-size: 40px;
+
  width: 100vw;
-  padding: 20px;
-  position: fixed;
+
+ padding: 20px;
+ color: black;
 
 }
 
 .hint {
   font-size: 13px;
+  overflow: scroll;
 }
 
 #p4 .hint {
@@ -477,17 +500,20 @@ and (max-device-width : 667px) {
     bottom: 0;
   
     padding-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 15px;
    
  
    
-    background-color: black;
   height: 40px;
    
     text-align: center;
     
   }
   
+
+
+  
+
 
 }
 
@@ -503,7 +529,7 @@ and (min-device-width : 320px)
   #menu .icon {
 
     display: flex;
-
+height: 38px;
     justify-content: center;
     transition: all .5s ease-out !important;
     -webkit-transition: all .5s ease-out;
@@ -526,18 +552,23 @@ and (min-device-width : 320px)
     right: 0;
     bottom: 0;
   
-    padding-bottom: 30px;
-    padding-top: 10px;
+    padding-bottom: 35px;
+    padding-top: 5px;
    
  
    
-    background-color: black;
   height: 40px;
    
     text-align: center;
     
   }
   
+
+
+
+
+
+
 
 }
 
