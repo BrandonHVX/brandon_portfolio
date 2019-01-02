@@ -21,13 +21,13 @@ const styles = theme => ({
   card: {
     maxWidth: 335,
     marginTop: 90,
-    margin: 20,
+    margin: 10,
     padding: 10,
 
 
   },
   media: {
-    height: 0,
+    height: 160,
     paddingTop: '56.25%', // 16:9
   },
   actions: {

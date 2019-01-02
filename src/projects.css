@@ -68,14 +68,14 @@ height: 100vh;
 .projects-menu.open {
   display: inline-block;
   cursor: pointer;
-  position: fixed;
+  position: inherit;
   left: 20px;
   bottom: 40px;
   z-index: 9999;
-  background: rgba(43, 18, 18, 0.3);
+
   padding: 10px;
   border-radius: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+
 }
 
 .projects-menu .bar1,

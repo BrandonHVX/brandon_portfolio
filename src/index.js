@@ -7,6 +7,7 @@ import './webdev.css';
 import './synergy.css';
 import './projects.css';
 import './digimedia.css';
+import './plyr.css';
 import Home from './components/Home.js';
 import Projects from './components/Projects.js';
 import Salon from './components/Salon.js';

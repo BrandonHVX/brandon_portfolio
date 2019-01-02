@@ -17,22 +17,6 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import iphone from './Apple-X.png';
-import Plyr from 'react-plyr';
-import Popup from "reactjs-popup";
-import BurgerIcon from './BurgerIcon';
-import Menu from './Menu';
-import MyAvatar from './Avatar.js';
-
-const contentStyle = {
-  background: "none",
-  width: 300,
-  
-  margin: "auto",
-  border: "none", 
-  padding: 0,
-};
-
-
 const styles = theme => ({
   card: {
     maxWidth: 335,
@@ -43,7 +27,8 @@ const styles = theme => ({
 
   },
   media: {
-    height: 0,
+    height: 160,
+   
     paddingTop: '56.25%', // 16:9
   },
   actions: {
@@ -78,29 +63,30 @@ class RecipeReviewCard extends React.Component {
     const { classes } = this.props;
 
     return (
-      <Card className="projects-card">
- 
-        <CardMedia>
-       
-        <Popup
-            modal
-            overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
-            contentStyle={contentStyle}
-            closeOnDocumentClick={false}
-            trigger={open => <MyAvatar open={open} />}>
-            {close => <Menu close={close} />}
-          </Popup>
-
-        </CardMedia>
-
-        <CardContent>
-            <Typography component="p">
-            This impressive paella is a perfect party dish and a fun meal to cook together with your
-            </Typography>
-        </CardContent>
+      <Card className={classes.card}>
+        <CardHeader
         
-       
-       </Card>
+          action={
+            <IconButton>
+              <MoreVertIcon />
+            </IconButton>
+          }
+          title="Shrimp and Chorizo Paella"
+          subheader="September 14, 2016"
+        />
+        <CardMedia
+          className={classes.media}
+          image={iphone}
+          title="Paella dish"
+        />
+        <CardContent>
+          <Typography component="p">
+            This impressive paella is a perfect party dish and a fun meal to cook together with your
+            guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          </Typography>
+        </CardContent>
+    
+      </Card>
     );
   }
 }

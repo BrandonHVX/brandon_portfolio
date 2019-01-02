@@ -1,16 +1,21 @@
 .digitalmedia {
-    display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-  justify-content: center;
-  overflow: scroll;
-  
-  }
-
-
-
-
+  display: flex;
  
+    flex-flow: row wrap;
+    font-weight: bold;
+    background-color:deepskyblue;
+  position: fixed;
+  background: "  ";
+  width: 100%;
+  top:0;
+  bottom: 0;
+  left: 0;
+right: 0;
+justify-content: center;
+  margin: auto;
+  
+ 
+  }
 
 
 
