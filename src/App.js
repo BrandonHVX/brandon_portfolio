@@ -11,7 +11,7 @@ import WebDev from './components/WebDev.js';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import DigitalMedia from './components/DigitalMedia.js';
 
-import bglogoheader from "./components/bglogoheader.svg";
+import bgheader from "./components/bgheader.png";
 
 const contentStyle = {
   background: "none",
@@ -63,7 +63,7 @@ function  Home() {
         
         </Fade> 
     <div class="headlogo">
-     <div class="bgheader"><img src ={bglogoheader} /></div>
+     <div class="bgheader"><img src ={bgheader} /></div>
             <Popup
           modal
           overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}

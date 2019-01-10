@@ -4,7 +4,7 @@
 .webdev {
   display: flex;
   width: 100%;
- position: relative;
+
 margin-bottom: 190px;
  
   flex-flow: row wrap;

@@ -37,7 +37,7 @@ position: fixed;
 background-repeat: no-repeat;
 
 width: 100%;
-height: 700px;
+
 text-align: center;
 background: black;
 left: 0;
@@ -508,15 +508,16 @@ justify-content: center;
 
 .page {
   position: fixed;
-  margin-top: 0px;
+
  
 
 }
 
 #p1 {
   right: 0;
+
   margin-top: 70px;
-  padding-top: 40px;
+  
   overflow: scroll;
 
   
@@ -536,35 +537,16 @@ justify-content: center;
 }
 
 .hint {
-  margin-bottom: 90px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #p1 { background: blue;
- 
-  width: 100%;
-
-  background: url('../src/components/code-bg.jpg') center center no-repeat;
-  background-size: cover; 
-
-
-
-
-
 }
 #p2 { background: palegreen; }
-#p3 { background: red;
-  position: absolute;
-  width: 100%;
- 
-  background: url('../src/components/bg.jpeg') center center no-repeat;
-  background-size: cover;
-
-
-
-}
+#p3 { background: red ;}
 #p4 { background: deeppink; }
 #p5 { background: white; }
 
@@ -653,12 +635,12 @@ ul {
   right: 0;
   bottom: 0;
   display: flex;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   padding-top: 30px;
   margin: auto;
   justify-content: center;
-  background-color: #007AFF;
-  height: 45px;
+  background-color: black;
+  height: 5px;
   width: 100%;
   text-align: center;
   
@@ -836,7 +818,7 @@ and (max-device-width : 867px) {
 
 
 @media only screen 
-and (min-device-width : 480px) 
+and (min-device-width : 320px) 
  { 
   
   #menu .icon {
@@ -863,14 +845,14 @@ height: 38px;
     position: fixed;
     z-index: 1;
     right: 0;
-    bottom: 0;
+    bottom: 40;
   
     padding-bottom: 35px;
     padding-top: 5px;
    
  
    
-  height: 40px;
+  height: 70px;
    
     text-align: center;
     
