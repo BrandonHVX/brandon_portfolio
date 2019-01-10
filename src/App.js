@@ -63,7 +63,14 @@ function  Home() {
         
         </Fade> 
    
-       
+        <Popup
+          modal
+          overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
+          contentStyle={contentStyle}
+          closeOnDocumentClick={false}
+          trigger={open => <BurgerIcon open={open} />}>
+          {close => <Menu close={close} />}
+        </Popup>
         <div class="page" id="p1">
              <section>
            
@@ -201,15 +208,8 @@ class App extends React.Component {
         <div>
 
  <div class="headlogo">
-     <div class="bgheader"><img src ={bgheader} /></div>
-            <Popup
-          modal
-          overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
-          contentStyle={contentStyle}
-          closeOnDocumentClick={false}
-          trigger={open => <BurgerIcon open={open} />}>
-          {close => <Menu close={close} />}
-        </Popup>
+     <div class="bgheader"><Link to="/"><img src ={bgheader} /></Link></div>
+          
         
         </div>
           <Route path="/" exact component={Landing} />
