@@ -20,14 +20,16 @@ import iphone from './Apple-X.png';
 const styles = theme => ({
   card: {
     maxWidth: 335,
-    marginTop: 90,
+    marginTop: 30,
+
     margin: 20,
     padding: 10,
 
 
   },
   media: {
-    height: 160,
+    height: 150,
+    marginTop: 15,
    
     paddingTop: '56.25%', // 16:9
   },
@@ -64,16 +66,7 @@ class RecipeReviewCard extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <CardHeader
-        
-          action={
-            <IconButton>
-              <MoreVertIcon />
-            </IconButton>
-          }
-          title="Shrimp and Chorizo Paella"
-          subheader="September 14, 2016"
-        />
+   
         <CardMedia
           className={classes.media}
           image={iphone}

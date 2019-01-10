@@ -22,8 +22,7 @@ export default ({ close }) => (
                  <div className="close" />
        
      </div>
-     <YouTube videoId='8srfKgvV9_M' opts={opts} containerClassName="digitalmedia" />
-          
+      <Profile />          
   
   </div>
 );

@@ -1,17 +1,24 @@
 
-.column {
-    float: left;
-    width: 40.33%;
+.column img{
+    float: center;
+    width: 30.33%;
     padding: 2px;
   }
 
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
 
 
   .column-logo {
     float: left;
 text-align: center;
     margin-top: 150px;
-    width: 50.33%;
+
    
   }
   .column-logo p{
@@ -56,7 +63,7 @@ text-align: center;
    
   .wrapper {
     display: flex;
-  margin-top: 90px; 
+ 
     flex-flow: row wrap;
     font-weight: bold;
     background-color:deepskyblue;
@@ -83,6 +90,9 @@ text-align: center;
     
   
       background: deepskyblue;
+      justify-content: center;
+      align-content: center;
+  
     }
     
  
@@ -93,7 +103,7 @@ text-align: center;
       margin: 20px;
       font-size: 20px;
       padding-top: 50px;
-
+    width: 900px;
    
     }
     

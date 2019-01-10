@@ -20,7 +20,7 @@ import iphone from './Apple-X.png';
 import Plyr from 'react-plyr';
 import Popup from "reactjs-popup";
 import YouTube from 'react-youtube';
-
+import bta from './bta.png';
 
 
 const opts = {
@@ -33,30 +33,69 @@ playerVars: { 'autoplay': 1, 'controls': 0 },
 class ControlledPopup extends Component {
     constructor(props) {
       super(props)
-      this.state = { open: false }
+      this.state = { 
+        open: false,
+        player: null, }
       this.openModal = this.openModal.bind(this)
       this.closeModal = this.closeModal.bind(this)
+      this.onPlayVideo = this.onPlayVideo.bind(this);
   
     }
     openModal (){
       this.setState({ open: true })
+
     }
     closeModal () {
       this.setState({ open: false })
     }
+
+    onPlayVideo() {
+      this.state.player.playVideo();
+    }
+
+
   
     render() {
       return (
         <div>
-          <button className="button" onClick={this.openModal}>
-            Controlled Popup
+        
+          
+          <Card className="projects-card">
+          <CardHeader
+        
+        action={
+          <IconButton>
+            <MoreVertIcon />
+          </IconButton>
+        }
+        title="Bands by Taylor Alexandria"
+        
+      />
+ <CardMedia className="card-media">
+ <button  onClick={this.openModal}>
+           <img src ={bta} className="video-img"/>
           </button>
+
+
+ </CardMedia>
+
+ <CardContent>
+     <Typography component="p">
+Business profile and interview with Bands by T.A. desiger Taylor Alexandria    </Typography>
+ </CardContent>
+ 
+
+</Card>
+          
+          
+          
+          
           <Popup
             open={this.state.open}
             closeOnDocumentClick
             onClose={this.closeModal}
           >
-            <div className="digitalmedia">
+            <div className="popup-video">
               <a className="close" onClick={this.closeModal}/>
               
              

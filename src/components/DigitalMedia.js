@@ -1,16 +1,7 @@
 import React , {Component} from "react";
-import SalonCard from "./SalonCard.js";
+import Salon from "./Salon.js";
 import BandsTA from "./BandsTA.js";
-import CardMedia from '@material-ui/core/CardMedia';
-import CardContent from '@material-ui/core/CardContent';
-import Plyr from 'react-plyr';
-import Card from '@material-ui/core/Card';
-import YouTube from 'react-youtube';
-import Popup from "reactjs-popup";
-import BurgerIcon from './BurgerIcon';
-import Menu from './Menu';
-import MyAvatar from './Avatar.js';
-import ProjectsIcon from "./ProjectsIcon.js";
+
 
 
 
@@ -76,16 +67,11 @@ class DigitalMedia extends Component {
     
       render() {
         return (
-          <div>
-            {/* <YouTube videoId={this.state.videoId} onReady={this.onReady}  opts={opts} containerClassName="digitalmedia" />
-            <button onClick={this.onPlayVideo}>Play</button>
-            <button onClick={this.onPauseVideo}>Pause</button>
-            <button onClick={this.onChangeVideo}>Change Video</button> */}
+        
        
-
-
-         <BandsTA />
-
+<div class="digitalmedia">
+<span class="title">Digital Media</span>
+      <BandsTA /><Salon />
 
           </div>
         );
