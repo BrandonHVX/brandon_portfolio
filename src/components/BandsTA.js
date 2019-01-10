@@ -72,9 +72,9 @@ class ControlledPopup extends Component {
         
       />
  <CardMedia className="card-media">
- <button  onClick={this.openModal}>
-           <img src ={bta} className="video-img"/>
-          </button>
+ {/* <button  onClick={this.openModal}> */}
+           <img src ={bta} />
+          {/* </button> */}
 
 
  </CardMedia>
