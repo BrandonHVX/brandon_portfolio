@@ -106,9 +106,11 @@ max-width: 530px;
 
 .bgheader img  {
 position: relative;
-  max-width: 65vw;
+  width: 240px;
+  height: 25px;
+  margin: 20px;
 padding-top: 15px;
-margin: 15px;
+
 
 
 
