@@ -71,10 +71,10 @@ class ControlledPopup extends Component {
         title="Bands by Taylor Alexandria"
         
       />
- <CardMedia>
- <button   className="card-media" onClick={this.openModal}>
-           <img src ={bta} />
-          </button>
+ <CardMedia className="card-media">
+
+           <img src ={bta} onClick={this.openModal} />
+  
 
 
  </CardMedia>
