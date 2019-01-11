@@ -230,13 +230,12 @@ display: flex;
   margin: auto;
 
 
-  overflow: scroll;
 }
 
 .popup-overlay{
 position: fixed;
    background: #051937;
- height: 100vh;
+ 
   
     z-index: 999;
 
@@ -316,7 +315,7 @@ position: fixed;
   display: flex;
   width: 100%;
  
-margin-bottom: 190px;
+margin-bottom: 150px;
 
   flex-flow: row wrap;
 justify-content: center;
@@ -338,6 +337,10 @@ height: 100vh;
   position: fixed;
   background: "  ";
   width: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
 
 
 justify-content: center;
@@ -444,10 +447,11 @@ justify-content: center;
   font-size: 43px;
   text-align: center;
   right: 10px;
+
   top: 18px;
   z-index: 9999;
   border-radius: 100px;
-  height: 60px;
+  height: 160px;
   width: 60px;
 }
 
@@ -843,8 +847,7 @@ height: 48px;
     display: flex;
    
       flex-flow: row wrap;
-      font-weight: bold;
-  height: 180vh;
+
     position: fixed;
     background: "  ";
     width: 100%;

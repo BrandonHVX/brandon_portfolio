@@ -22,7 +22,14 @@ import Popup from "reactjs-popup";
 import YouTube from 'react-youtube';
 import bta from './bta.png';
 
-
+const contentStyle = {
+  background: "none",
+  width: 300,
+  
+  margin: "auto",
+  border: "none", 
+  padding: 0,
+};
 const opts = {
   width: "100%",
 playerVars: { 'autoplay': 1, 'controls': 0 },
@@ -91,8 +98,13 @@ Business profile and interview with Bands by T.A. desiger Taylor Alexandria    <
           
           
           <Popup
+          modal
             open={this.state.open}
-            closeOnDocumentClick
+            
+            overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
+            contentStyle={contentStyle}
+            closeOnDocumentClick={true}
+  
             onClose={this.closeModal}
           >
             <div className="popup-video">

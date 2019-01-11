@@ -22,9 +22,16 @@ import Popup from "reactjs-popup";
 import YouTube from 'react-youtube';
 import salon from './salon.svg';
 
+const contentStyle = {
+  background: "none",
+  width: 300,
+
+  border: "none", 
+  padding: 90,
+};
 
 const opts = {
-  width: "100%",
+
 playerVars: { 'autoplay': 1, 'controls': 0 },
 
  };
@@ -72,9 +79,9 @@ class Salon extends Component {
         
       />
  <CardMedia className="card-media">
- <button  onClick={this.openModal}>
-           <img src ={salon} className="video-img-salon"/>
-          </button>
+
+           <img src ={salon} className="video-img-salon" onClick={this.openModal} />
+      
 
 
  </CardMedia>
@@ -91,15 +98,19 @@ Business profile and interview with Bands by T.A. desiger Taylor Alexandria    <
           
           
           <Popup
-            open={this.state.open}
-            closeOnDocumentClick
+             modal
+             open={this.state.open}
+             
+             overlayStyle={{ background: "rgba(4, 240, 220, 0.93)"}}
+             contentStyle={contentStyle}
+             closeOnDocumentClick={true}
             onClose={this.closeModal}
           >
-            <div className="popup-video">
+            <div className="burger-menu open">
               <a className="close" onClick={this.closeModal}/>
               
-             
-              <YouTube videoId='wXFA-SFZaTc' opts={opts} containerClassName="modal" />
+        
+              <YouTube videoId='wXFA-SFZaTc' opts={opts}  /> 
             </div>
           </Popup>
         </div>
