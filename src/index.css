@@ -224,15 +224,21 @@ display: flex;
   background: "  ";
  display: flex;
  width: 600px;
+ 
   margin: auto;
 
-  padding-bottom: 95px;
+
   overflow: scroll;
 }
 
+.popup-overlay{
+position: fixed;
+   
+ 
+    display: flex;
+    z-index: 999;
 
-
-
+}
 
  
   
@@ -330,7 +336,7 @@ justify-content: center;
   position: fixed;
   background: "  ";
   width: 90%;
-  padding-bottom: 20vh;
+height: 100vh;
   top:0;
   bottom: 0;
   left: 0;
@@ -392,7 +398,7 @@ justify-content: center;
 
 .close {
   position: absolute;
-  right: 1vw;
+  right: 40px;
   top: 20px;
 
   width: 2px;
@@ -440,7 +446,6 @@ justify-content: center;
   text-align: center;
   right: 10px;
   top: 18px;
-  
   z-index: 9999;
   border-radius: 100px;
   height: 60px;
@@ -462,10 +467,10 @@ justify-content: center;
 
 .burger-menu.open .avi {
   visibility: hidden;
-  right: 20px;
+  right: 120px;
   top: 10px;
   opacity: 0;
-  transition: visibility 0s .3s, opacity .3s linear;
+  
 }
 
 
@@ -502,7 +507,7 @@ justify-content: center;
 #p2, #p3, #p4, #p5 {
   left: 190%;
   margin-top: 70px;
-  padding-top: 40px;
+  padding-top: 10px;
   overflow: scroll;
   
 
@@ -820,14 +825,9 @@ height: 48px;
     z-index: 1;
     right: 0;
     bottom: 20;
+    padding-bottom: 80px;
+    padding-top: 2px;
   
-    padding-bottom: 95px;
-    padding-top: 5px;
-   
- 
-   
-  height: 10px;
-   
     text-align: center;
     
   }
