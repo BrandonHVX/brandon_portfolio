@@ -148,7 +148,22 @@ justify-content: center;
     }
 
 
+.bands-page {
+  display: flex;
+ 
+  flex-flow: row wrap;
+  font-weight: bold;
 
+position: fixed;
+
+width: 100px;
+top: 130px;
+left: 0;
+right: 0;
+justify-content: center;
+margin: auto;
+
+}
 
 
 .landing  {

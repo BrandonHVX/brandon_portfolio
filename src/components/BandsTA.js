@@ -88,7 +88,7 @@ const styles = theme => ({
 const images = [
   {
     url: require('../components/bta.png'),
-    title: 'Breakfast',
+    title: 'Bands by Taylor Alexandria',
     width: '100%',
     
   },

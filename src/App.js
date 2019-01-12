@@ -12,6 +12,8 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import DigitalMedia from './components/DigitalMedia.js';
 
 import bgheader from "./components/bgheader.png";
+import Salon from './components/Salon';
+import BandsTAcard from './components/BandsTAcard';
 
 const contentStyle = {
   background: "none",
@@ -43,7 +45,7 @@ else {
 function BandsPage(){
   return (
 <div>
-
+<div className="bands-page"><BandsTAcard /></div>
 <LoNavi />
 
 
@@ -66,10 +68,8 @@ function  LoNavi() {
            
           <ul id="menu">
 
-            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
-            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>DIGITAL MEDIA</a>
-            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>UI DESIGN</a>
-            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>RESUME</a>
+           
+          <Link to="/projects#t2"><a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>Back</a></Link>  
           </ul>
         
         </Fade> 
