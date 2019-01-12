@@ -560,7 +560,7 @@ overflow: scroll;
 #p2, #p3, #p4, #p5 {
   left: 190%;
   margin-top: 70px;
- 
+ position: absolute;
   overflow: scroll;
   
 
