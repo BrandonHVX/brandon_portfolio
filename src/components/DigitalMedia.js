@@ -78,7 +78,7 @@ class DigitalMedia extends Component {
         
        
 <div class="digitalmedia">
-<span class="title">Digital Media</span>
+<span class="title">DIGITAL MEDIA</span>
 
 
 

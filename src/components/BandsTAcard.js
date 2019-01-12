@@ -67,9 +67,9 @@ class BandsTAcard extends Component {
   
     render() {
       return (
-        <div>
+        <div >
         
-          
+       
           <Card className="projects-card">
           <CardHeader
         

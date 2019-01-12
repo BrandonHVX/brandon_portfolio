@@ -10,6 +10,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
     minWidth: 375,
     width: '100%',
+    marginTop: '10px',
    
 
   },

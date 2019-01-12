@@ -42,7 +42,7 @@ const Synergy = () => (
 	<div className="webdev">
 		
 		
-        <span class="title">Web Development</span>
+        <span class="title">WEB DEVELOPMENT</span>
 		
 	
 		<Slider className="slider-wrapper">

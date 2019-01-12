@@ -44,9 +44,11 @@ else {
 
 function BandsPage(){
   return (
-<div>
-<div className="bands-page"><BandsTAcard /></div>
- 
+
+<div className="bands-page">
+<span class="title">DIGITAL MEDIA:BANDS BY TAYLOR ALEXANDRIA</span>
+<div class="bands-card-page"><BandsTAcard /></div>
+
 <Popup
           modal
           overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
@@ -56,9 +58,9 @@ function BandsPage(){
           {close => <Menu close={close} />}
         </Popup>
 <LoNavi />
-
-
 </div>
+
+
   )
 }
 

@@ -147,6 +147,8 @@ justify-content: center;
   
     }
 
+  
+
 
 .bands-page {
   display: flex;
@@ -156,8 +158,9 @@ justify-content: center;
 
 
 position: relative;
-width: 100px;
-top: 70px;
+width: 100%;
+top: 15vh;
+overflow: scroll;
 left: 0;
 right: 0;
 justify-content: center;
@@ -340,6 +343,8 @@ justify-content: center;
 }
 
 
+
+
 .popup {
   position: absolute;
   width: 100%;
@@ -397,16 +402,16 @@ justify-content: center;
 
 
 
-.menu {
-  
+.menu a {
+  color: #000;
   
 }
 .menu ul {
-
+  color: #000;
 }
 .menu li {
   list-style: outside none none;
- 
+  color: #000;
   padding: 0;
   cursor: pointer;
 }
@@ -555,7 +560,7 @@ overflow: scroll;
 #p2, #p3, #p4, #p5 {
   left: 190%;
   margin-top: 70px;
-  padding-top: 10px;
+ 
   overflow: scroll;
   
 
@@ -570,11 +575,11 @@ overflow: scroll;
   justify-content: center;
 }
 
-#p1 { background: blue;
+#p1 { background: white;
 }
-#p2 { background: palegreen; }
-#p3 { background: red ;}
-#p4 { background: deeppink; }
+#p2 { background: white; }
+#p3 { background: white ;}
+#p4 { background: white; }
 #p5 { background: white; }
 
 
@@ -619,7 +624,7 @@ overflow: scroll;
 }
 
 .icon {
-  color: #fff;
+  color: white;
   font-size: 30px;
   display: inline;
   
@@ -666,7 +671,7 @@ ul {
   padding-top: 30px;
   margin: auto;
   justify-content: center;
-background: blue;
+background:  rgba(0,2,4,0.70);
   height: 5px;
   width: 100%;
   text-align: center;
@@ -685,9 +690,9 @@ background: blue;
   -o-transition: all .5s ease-out;
 }
 
-a {
+#menu a {
   text-decoration: none;
-  padding-left: 40px;
+  padding-left: 18px;
   color: white;
   
 }
@@ -696,11 +701,11 @@ a {
 
 .title {
 
- font-size: 20px;
+ font-size: 10px;
  width: 100vw;
- padding-left: 40px;
+ padding-left: 20px;
  padding-top: 40px;
- color: black;
+ color: rgb(121, 120, 120);
 
 }
 
