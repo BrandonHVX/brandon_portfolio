@@ -46,6 +46,15 @@ function BandsPage(){
   return (
 <div>
 <div className="bands-page"><BandsTAcard /></div>
+ 
+<Popup
+          modal
+          overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
+          contentStyle={contentStyle}
+          closeOnDocumentClick={false}
+          trigger={open => <BurgerIcon open={open} />}>
+          {close => <Menu close={close} />}
+        </Popup>
 <LoNavi />
 
 

@@ -154,10 +154,10 @@ justify-content: center;
   flex-flow: row wrap;
   font-weight: bold;
 
-position: fixed;
 
+position: relative;
 width: 100px;
-top: 130px;
+top: 70px;
 left: 0;
 right: 0;
 justify-content: center;
@@ -334,7 +334,7 @@ position: fixed;
   width: 100%;
  
 margin-bottom: 150px;
-
+overflow: scroll;
   flex-flow: row wrap;
 justify-content: center;
 }
@@ -365,7 +365,7 @@ justify-content: center;
  
     flex-flow: row wrap;
     font-weight: bold;
-height: 100vh;
+
   position: fixed;
   background: "  ";
   width: 100%;
@@ -428,6 +428,19 @@ justify-content: center;
   height: 60px;
   width: 60px;
 }
+
+
+
+.close-video {
+  right: 40px;
+  width: 2px;
+  height: 2px;
+  
+}
+
+
+
+
 
 
 .close {
@@ -522,7 +535,7 @@ justify-content: center;
 
 .page {
   position: fixed;
-
+overflow: scroll;
  
 
 }

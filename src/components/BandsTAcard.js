@@ -27,7 +27,7 @@ import Button from '@material-ui/core/Button';
 
 const contentStyle = {
   background: "none",
-  width: 300,
+  width: 200,
 
   border: "none", 
   padding: 90,
@@ -83,7 +83,7 @@ class BandsTAcard extends Component {
       />
  <CardMedia className="card-media">
 
-           <img src ={bta} className="video-img" onClick={this.openModal} />
+           <img src ={bta} className="video-img" />
       
 
 
@@ -98,7 +98,7 @@ Produced and Edited by Brandon Gines </Typography>
  </CardContent>
  
  <CardActions>
- <Button variant="outlined" color="primary">
+ <Button variant="outlined" color="primary" onClick={this.openModal} >
         Play Video
       </Button>
     
@@ -117,8 +117,8 @@ Produced and Edited by Brandon Gines </Typography>
              closeOnDocumentClick={true}
             onClose={this.closeModal}
           >
-          szvdxb<div className="popup-video">
-              <a className="close" onClick={this.closeModal}/>
+          <div className="popup-video">
+              <a className="close-video" onClick={this.closeModal}/>
               
         
               <YouTube videoId='8srfKgvV9_M' opts={opts}  /> 
