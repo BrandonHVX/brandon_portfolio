@@ -106,7 +106,7 @@ Business profile and interview with Bands by T.A. desiger Taylor Alexandria    <
              closeOnDocumentClick={true}
             onClose={this.closeModal}
           >
-            <div className="burger-menu open">
+          szvdxb<div className="popup-video">
               <a className="close" onClick={this.closeModal}/>
               
         

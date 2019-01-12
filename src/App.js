@@ -40,6 +40,62 @@ else {
 
 }
 
+function BandsPage(){
+  return (
+<div>
+
+<LoNavi />
+
+
+</div>
+  )
+}
+
+function  LoNavi() {
+ 
+  return(
+
+  <div id="navi">
+           <div class="ct" id="t1">
+            <div class="ct" id="t2" >
+            <div class="ct" id="t3">
+            <div class="ct" id="t4">
+            <div class="ct" id="t5">
+   
+       <Fade right>
+           
+          <ul id="menu">
+
+            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
+            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>DIGITAL MEDIA</a>
+            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>UI DESIGN</a>
+            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>RESUME</a>
+          </ul>
+        
+        </Fade> 
+
+
+</div>
+
+</div>
+
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  )
+}
+
+
+
+
+
+
+
+
+
 function  Home() {
  
   return(
@@ -214,6 +270,7 @@ class App extends React.Component {
         </div>
           <Route path="/" exact component={Landing} />
           <Route path="/projects" component={Home} />
+          <Route path="/bands-project" component={BandsPage} />
          
         </div>
       </BrowserRouter></div>

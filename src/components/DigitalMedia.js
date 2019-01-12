@@ -2,7 +2,16 @@ import React , {Component} from "react";
 import Salon from "./Salon.js";
 import BandsTA from "./BandsTA.js";
 
-
+import Lightbox from 'react-images';
+import bta from './bta.png';
+import salon from './salon.svg';
+import Popup from "reactjs-popup";
+import Modal from './Modal.js';
+import Menu from './Menu';
+import Synergy from './Synergy';
+import BurgerIcon from './BurgerIcon';
+import Gallery from 'react-multimedia-gallery';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 
 const contentStyle = {
@@ -13,8 +22,7 @@ const contentStyle = {
     border: "none", 
     padding: 0,
   };
-
-
+ 
 
 const videoIdA = '8srfKgvV9_M';
 const videoIdB = '8srfKgvV9_M';
@@ -71,7 +79,19 @@ class DigitalMedia extends Component {
        
 <div class="digitalmedia">
 <span class="title">Digital Media</span>
-      <BandsTA /><Salon />
+
+
+
+
+<Link to="/bands-project"><BandsTA /></Link>
+
+
+<Link to="/bands-project"><BandsTA /></Link>
+
+
+
+
+
 
           </div>
         );

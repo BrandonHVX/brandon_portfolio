@@ -8,19 +8,18 @@ const styles = theme => ({
   root: {
     display: 'flex',
     flexWrap: 'wrap',
-    minWidth: 375,
+    minWidth: 300,
     width: '100%',
-   
-
+    padding: '20px',
   },
   image: {
     position: 'relative',
-    height: 250,
+    height: 200,
 
     [theme.breakpoints.down('xs')]: {
       width: '100% !important', // Overrides inline-style
       height: 300,
-      
+      padding: 20,
     },
     '&:hover, &$focusVisible': {
       zIndex: 1,
@@ -42,7 +41,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-  
+   margin: 10,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -54,7 +53,7 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-   
+    padding: '20px',
     backgroundSize: 'cover',
     backgroundPosition: 'center 40%',
   },
@@ -64,7 +63,6 @@ const styles = theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-  
     backgroundColor: theme.palette.common.black,
     opacity: 0.4,
     transition: theme.transitions.create('opacity'),
@@ -76,7 +74,6 @@ const styles = theme => ({
   imageMarked: {
     height: 3,
     width: 18,
-    
     backgroundColor: theme.palette.common.white,
     position: 'absolute',
     bottom: -2,
@@ -89,7 +86,7 @@ const images = [
   {
     url: require('../components/bta.png'),
     title: 'Breakfast',
-    width: '100%',
+    width: '50%',
     
   },
 
