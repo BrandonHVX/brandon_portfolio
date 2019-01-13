@@ -1,296 +1,131 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import Popup from "reactjs-popup";
-
-import Menu from './components/Menu';
-import Synergy from './components/Synergy';
-import BurgerIcon from './components/BurgerIcon';
-import Fade from 'react-reveal/Fade';
-import WebDev from './components/WebDev.js';
+import Navi from './components/BottomNavi';
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import DigitalMedia from './components/DigitalMedia.js';
 
-import bgheader from "./components/bgheader.png";
-import Salon from './components/Salon';
-import BandsTAcard from './components/BandsTAcard';
-
-const contentStyle = {
-  background: "none",
-  width: 300,
-  
-  margin: "auto",
-  border: "none", 
-  padding: 0,
-};
-function UserGreeting(props) {
-  return <h2>Good Morning</h2>;
-}
-
-function GuestGreeting(props) {
-  return <p>Hello,Good Afternoon! I'm Brandon, a developer, desiger and media producer
-  dedicated to creating powerful and intuitive web applications.</p>;
-}
-function Greeting () {
-
-if (new Date().getHours() < 12) {
-  return <UserGreeting />;
-}
-else {
-  return <GuestGreeting />;
-}
-
-}
-
-function BandsPage(){
-  return (
-
-<div className="bands-page">
-<span class="title">DIGITAL MEDIA:BANDS BY TAYLOR ALEXANDRIA</span>
-<div class="bands-card-page"><BandsTAcard /></div>
-
-<Popup
-          modal
-          overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
-          contentStyle={contentStyle}
-          closeOnDocumentClick={false}
-          trigger={open => <BurgerIcon open={open} />}>
-          {close => <Menu close={close} />}
-        </Popup>
-<LoNavi />
-</div>
+import bgheader from './images/bgheader.png';
 
 
-  )
-}
 
-function  LoNavi() {
- 
+function Header(){
   return(
-
-  <div id="navi">
-           <div class="ct" id="t1">
-            <div class="ct" id="t2" >
-            <div class="ct" id="t3">
-            <div class="ct" id="t4">
-            <div class="ct" id="t5">
-   
-       <Fade right>
-           
-          <ul id="menu">
-
-           
-          <Link to="/projects#t2"><a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>Back</a></Link>  
-          </ul>
-        
-        </Fade> 
-
-
-</div>
-
-</div>
-
-    </div>
-    </div>
-    </div>
-</div>
-
-
+    <div class="headlogo">
+     <div class="bgheader"><Link to="/"><img src ={bgheader} /></Link></div>
+ </div>
   )
 }
-
-
-
-
-
-
-
-
-
-function  Home() {
- 
-  return(
-
-  <div id="navi">
-           <div class="ct" id="t1">
-            <div class="ct" id="t2" >
-            <div class="ct" id="t3">
-            <div class="ct" id="t4">
-            <div class="ct" id="t5">
-   
-       <Fade right>
-           
-          <ul id="menu">
-
-            <a href="#t1"><li class="icon fa fa-bolt" id="uno"></li>WEB DEV</a>
-            <a href="#t2"><li class="icon fa fa-keyboard" id="dos"></li>DIGITAL MEDIA</a>
-            <a href="#t3"><li class="icon fa fa-rocket" id="tres"></li>UI DESIGN</a>
-            <a href="#t5"><li class="icon fa fa-plus-circle" id="cinco"></li>RESUME</a>
-          </ul>
-        
-        </Fade> 
-   
-        <Popup
-          modal
-          overlayStyle={{ background: "rgba(4, 240, 220, 0.93)" }}
-          contentStyle={contentStyle}
-          closeOnDocumentClick={false}
-          trigger={open => <BurgerIcon open={open} />}>
-          {close => <Menu close={close} />}
-        </Popup>
-        <div class="page" id="p1">
-             <section>
-           
-             <span class="hint"> 
-             
-             <WebDev />
-          
-             </span></section>  
-          </div>
-   
-
-  
-    <div class="page" id="p2">
-  
-       <Fade>   
-        
-       <section >
-   
-          <span class="hint"> 
-         <DigitalMedia />
-          </span>
-          </section>
-
-       </Fade>  
-
-    </div>
-   
-   
-   <div class="page" id="p3">
-         
-   
-          <section >
-        
-          <span class="hint"> </span>
-          </section>
-
-
-
-         
-        </div> 
-
-      <div class="page" id="p4">
-          <section class="icon fa fa-dribbble">
-            <span class="title">Dribbble</span>
-            <p class="hint">
-              <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
-            </p>
-            <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
-          </section>
-        </div>
-
-        <div class="page" id="p5">
-          <section class="icon fa fa-plus-circle">
-            <span class="title">More</span>
-            <p class="hint">
-              <span>You love one page & CSS only stuff? </span><br/>
-              <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
-            </p>
-          </section>
-        </div> 
-
-
-</div>
-
-</div>
-
-    </div>
-    </div>
-    </div>
-</div>
-
-
-  )
-}
-
-
 
 
 function Landing() {
+     return(
+<div class="landing-page">
+    <h1>Landing</h1>
+<Link to="/home/webdevelopment">HOME</Link>
 
- 
-
-    return(
-      <div class="landing-page">
- <div class="bg-img"></div>
-     
-     
-     <div class="landing-text">
-    
-
- 
-
-
- <p>    
-
- <Greeting /> 
-
-  <div class="center-button">
-
-
-          <button class="button"><Link to="/projects#t2">VIEW MY WORK</Link></button>
-  
 </div>
-    
+  )
+}
 
-  </p>
-  
-  
+function Home() {
+  return(
+<div class="webdev">
+
+ <Header />
 
 
+</div>
+)
+
+}
+
+
+function WebDev() {
+  return(
+<div class="page">
+
+<div className="subpage" >
+
+</div>
+
+<div class="title"><h1>WebDev</h1></div>
+<Header />
+
+</div>
+)
+}
+
+
+function DigitalMedia() {
+  return (
+    <div class="page">
+<div class="title"><h1>Digital Media</h1></div>
+<Header />
+
+</div>
+  )
+}
+
+
+function Design() {
+  return (
+    <div>
+<div class="title"><h1>Design</h1></div>
+ <Header />
+ </div>
+  )
+}
+
+
+function Resume (){
+  return (
+    <div>
+      <div class="title"><h1>Resume</h1></div>
+      <Header />
     </div>
-      
-
-          
-      </div>
-    )
-  }
+  )
+}
 
 
 
 
 
-class App extends React.Component {
+
+class App extends Component {
 
   constructor(props) {
     super(props);
   }
 
   render() {
-    return (        <div>
+    return (
+<div>
      
     
-      <BrowserRouter>
+     <BrowserRouter>
+      
+       <div>
+     
+    
        
-        <div>
-
- <div class="headlogo">
-     <div class="bgheader"><Link to="/"><img src ={bgheader} /></Link></div>
-          
+       <Route path="/" exact component={Landing} />
+             
+             <Route path="/home/webdevelopment" component={WebDev} />
+             <Route path="/home/digitalmedia" component={DigitalMedia} />
+          <Route path="/home/webdevelopment"component={Home} />
+          <Route path="/home/design" component={Design} />
+          <Route path="/home/resume" component={Resume} />
+             
+      <Navi />    
         
-        </div>
-          <Route path="/" exact component={Landing} />
-          <Route path="/projects" component={Home} />
-          <Route path="/bands-project" component={BandsPage} />
-         
-        </div>
-      </BrowserRouter></div>
+       </div>
+     </BrowserRouter></div>
     );
   }
 }
 
-
 export default App;
+
  
 
 
