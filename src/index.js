@@ -1,6 +1,14 @@
 import React , {Component}from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
+import './css/navi.css';
+import './css/landing.css';
+import './css/webdev.css';
+import './css/design.css';
+import './css/slider.css';
+import './css/digitalmedia.css';
+// import './css/normalize.css';
+import './css/skeleton.css';
 
 
 

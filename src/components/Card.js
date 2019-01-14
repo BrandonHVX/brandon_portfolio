@@ -16,7 +16,8 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import iphone from './Apple-X.png';
+import iphone from '../images/Apple-X.jpg';
+
 const styles = theme => ({
   card: {
     maxWidth: 335,

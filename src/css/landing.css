@@ -1,0 +1,22 @@
+.landing{
+ height: 100vh;
+ background-image: url("");
+ /* flex-box thing */
+ display: flex;
+
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-size: cover; 
+
+}
+
+
+
+.landing img {
+    position: relative;
+    bottom: 80px;
+    width: 280px;
+    height: 30px;
+    margin: 15px;
+}
