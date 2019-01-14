@@ -295,7 +295,8 @@ button {
   
   @media (max-width: 640px) {
     .slider-wrapper, .slide {
-      height: calc(80vh - 75px);
+      height: calc(70vh - 95px);
+      margin-top: 30px;
       width: 390px;
     }    
     .slider-content .inner {
@@ -316,7 +317,17 @@ button {
         margin: 5px auto 20px;
         max-width: 640px;
       }
-
+      .nextButton {
+        position: absolute;
+        top: 90%;
+        transform: translateY(-50%);
+        z-index: 10;
+        background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+        cursor: pointer;
+}
 
   }
   

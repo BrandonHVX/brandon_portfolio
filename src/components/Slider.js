@@ -20,23 +20,15 @@ const content = [
 		userProfile: 'https://i.imgur.com/JSW6mEk.png'
 	},
 	{
-		title: 'Tortor Dapibus Commodo Aenean Quam',
+		title: 'Salatto Salon',
 		description:
-		'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
+		'Inside look into the luxury experience of hair and beauty at Salatto Salon.',
 		button: 'Discover',
 		image: require('../images/salon.svg'),
 		user: 'Erich Behrens',
 		userProfile: 'https://i.imgur.com/0Clfnu7.png'
 	},
-	{
-		title: 'Phasellus volutpat metus',
-		description:
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
-		button: 'Buy now',
-		image: require('../images/bta.svg'),
-		user: 'Bruno Vizovskyy',
-		userProfile: 'https://i.imgur.com/4KeKvtH.png'
-	}
+
 ];
 
 const App = () => (
