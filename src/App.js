@@ -8,7 +8,7 @@ import bgheader from './images/bgheader.png';
 import BandsTA from './components/BandsTA.js';
 import Header from './components/Header.js';
 import Slider from './components/Slider.js';
-
+import phone from './images/iphone.png';
 
 
 
@@ -44,7 +44,8 @@ function WebDev() {
 <div className="subpage" >
 
 
-<Synergy />
+<SynergyCard />
+<NyxCard />
 </div>
 
 <Navi />    
@@ -85,6 +86,58 @@ function Resume (){
     </div>
   )
 }
+
+
+
+
+
+
+
+function SynergyCard (){
+  return (
+    <div class="section syncard">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column phones">
+            <img class="phone" src={phone}/>
+       </div>
+        <div class="one-half column ">
+        
+          <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
+          <a class="button button-primary" href="http://getskeleton.com">View Project</a>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+function NyxCard (){
+  return (
+    <div class="section nyxcard">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column phones">
+            <img class="phone" src={phone}/>
+       </div>
+        <div class="one-half column ">
+        
+          <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
+          <a class="button button-primary" href="http://getskeleton.com">View Project</a>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+  )
+}
+
+
+
+
+
+
 
 
 

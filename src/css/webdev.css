@@ -15,6 +15,25 @@
     margin-bottom: 1.2rem;
     
   }
+  .syncard {
+      background-color: orange;
+      background-image:  url('  http://www.stringsbyreiko.com/media/care_preview@3x-fa9b87aed62cddb52d4097b30910cc693b14e07921d57c81f64bde5c123f6f6c.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+   background-size: cover; 
+   margin: 20px;
+     
+  }
+ 
+
+  .nyxcard {
+    background-color: goldenrod;
+    background-image:  url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+   background-size: cover; 
+   margin: 20px;
+}
   
   /* Hero
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -74,16 +93,35 @@
     margin-bottom: 4rem;
   }
   
+
+  @media (max-width: 640px){
+
+    .syncard {
+        padding-bottom: 12rem;
+        margin: 20px;
+        text-align: left;
+        height: 490px;
+      }
+
+
+      .nyxcard {
+        padding-bottom: 12rem;
+margin: 20px;
+        text-align: left;
+        height: 490px;
+      }
+
+  }
+
+
+
+
   /* Bigger than 550 */
   @media (min-width: 550px) {
     .section {
       padding: 12rem 0 11rem;
     }
-    .hero {
-      padding-bottom: 12rem;
-      text-align: left;
-      height: 165px;
-    }
+  
     .phone {
         max-width: 60%;
       top: -7rem;
