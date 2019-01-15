@@ -7,6 +7,7 @@ import './css/webdev.css';
 import './css/design.css';
 import './css/slider.css';
 import './css/digitalmedia.css';
+import './css/webdev.scss';
 // import './css/normalize.css';
 import './css/skeleton.css';
 

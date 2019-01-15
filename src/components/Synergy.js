@@ -3,12 +3,14 @@ import phone from '../images/iphone.png';
 
 
 
-
 class Synergy extends Component {
     render(){
         return (
 
 <div class="synergy">
+
+
+
             <div class="section hero">
             <div class="container">
               <div class="row">
