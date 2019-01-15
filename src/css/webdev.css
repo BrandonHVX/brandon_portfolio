@@ -13,7 +13,7 @@
   .section-heading,
   .section-description {
     margin-bottom: 1.2rem;
-    
+  
   }
   .syncard {
       background-color: orange;
@@ -37,8 +37,10 @@
   
   /* Hero
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .phones {
-    /* position: relative; */
+  .text {
+    background-color: rgba(0, 0, 0, 0.7);
+   border-radius: 10px;
+    color: white;
   }
   .phone {
  
@@ -54,6 +56,11 @@
     font-size: 2.4rem;
     padding: 4rem 0 3rem;
   }
+  
+
+  
+
+
   /* Values
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .values {
@@ -106,14 +113,19 @@
 
       .nyxcard {
         padding-bottom: 12rem;
-margin: 20px;
+        margin: 20px;
         text-align: left;
         height: 490px;
       }
 
   }
 
-
+  .text {
+    background-color: rgba(0, 0, 0, 0.7);
+   border-radius: 10px;
+   margin-top: 40px;
+    color: white;
+  }
 
 
   /* Bigger than 550 */
@@ -153,6 +165,9 @@ margin: 20px;
       padding: 4rem 0 3rem;
 
     }
+
+
+    
     .section {
       padding: 14rem 0 15rem;
     }

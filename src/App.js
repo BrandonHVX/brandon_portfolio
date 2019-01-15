@@ -101,7 +101,7 @@ function SynergyCard (){
         <div class="one-half column phones">
             <img class="phone" src={phone}/>
        </div>
-        <div class="one-half column ">
+        <div class="one-half column text ">
         
           <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
           <a class="button button-primary" href="http://getskeleton.com">View Project</a>
@@ -121,7 +121,7 @@ function NyxCard (){
         <div class="one-half column phones">
             <img class="phone" src={phone}/>
        </div>
-        <div class="one-half column ">
+        <div class="one-half column text ">
         
           <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
           <a class="button button-primary" href="http://getskeleton.com">View Project</a>
