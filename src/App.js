@@ -60,8 +60,16 @@ function DigitalMedia() {
     <div class="page">
 <div class="title">Digital Media</div>
 <Header />
+<div className="subpage" >
 <Card />
-<Navi />    
+<Card />
+
+
+
+</div>
+
+<Navi />   
+
 </div>
   )
 }
@@ -117,7 +125,7 @@ function SynergyCard (){
 function NyxCard (){
   return (
     <div class="section nyxcard">
-    <div class="bg-img">
+   
     <div class="container">
       <div class="row">
         <div class="one-half column nyxphone">
@@ -125,14 +133,13 @@ function NyxCard (){
        </div>
         <div class="one-half column text ">
         
-          <h4 class="hero-heading">New York Times Top Stories API </h4>
-          <a class="button button-primary" href="http://getskeleton.com">View Project</a>
-       
+        <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
+          <Link to='/web-development/synergy'><Button variant="contained" color="primary">View Project</Button></Link>
         </div>
       </div>
     </div>
     </div>
-  </div>
+  
   )
 }
 

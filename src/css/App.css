@@ -1,11 +1,66 @@
 
-  
-  
+.digital-media {
 
-			
+	width: 350px;
+	height: 490px;
+	margin: 10px;
+	background-image: url('../images/bta.svg');
+	background-position: center;
+	background-size: cover;
+background-repeat: no-repeat;
 
-			
+	
+}
 
 
 
 
+
+
+.cards {
+min-height: 40px;
+margin-top: 300px;
+color: black;
+padding: 10px;
+background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
+		  background: linear-gradient(transparent, rgba(255, 255, 255, 0.9));
+
+
+
+	
+	
+	}
+	
+
+
+
+
+
+.youtube-video{
+	width: 100%;
+
+}
+
+
+.card-button{
+	position: ;
+	margin: 20px;
+float: right;
+	 
+}
+
+
+@media (min-width: 550px) {
+	.modal-main {
+		position:fixed;
+	 
+		width:800px;
+		height: auto;
+		top:50%;
+		left:50%;
+		z-index: 6;
+		padding: 30px;
+		transform: translate(-50%,-50%);
+	  }
+ 
+  }

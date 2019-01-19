@@ -17,80 +17,81 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import iphone from '../images/Apple-X.jpg';
+import Header from './Header.js';
+import YouTube from 'react-youtube';
+import Button from '@material-ui/core/Button';
 
 
-class RecipeReviewCard extends React.Component {
-  state = { expanded: false };
+const opts = {
 
-  handleExpandClick = () => {
-    this.setState(state => ({ expanded: !state.expanded }));
-  };
 
-  render() {
-    const { classes } = this.props;
+	  autoplay: 1
+	}
 
-    return (
-      <div class="card-container">
-  <div class="card card-1">
-    <div class="card-img"></div>
-    <a href="" class="card-link">
-      <div class="card-img-hovered"></div>
-    </a>
-    <div class="card-info">
-      <div class="card-about">
-        <a class="card-tag tag-news">NEWS</a>
-      <div class="card-time">6/11/2018</div>
-      </div>
-      <h1 class="card-title">There have been big Tesla accident at New Jersey</h1>
-      <div class="card-creator">by <a href="">Sardorbek Usmonov</a></div>
-    </div>
-  </div>
-  <div class="card card-2">
-    <div class="card-img"></div>
-    <a href="" class="card-link">
-      <div class="card-img-hovered"></div>
-    </a>
-    <div class="card-info">
-      <div class="card-about">
-        <a class="card-tag">Tech</a>
-      <div class="card-time">6/07/2018</div>
-      </div>
-      <h1 class="card-title">Samsung laptops is exploding again</h1>
-      <div class="card-creator">by <a href="">Tyler Platt</a></div>
-    </div>
-  </div>
-  <div class="card card-3">
-    <div class="card-img"></div>
-    <a href="" class="card-link">
-      <div class="card-img-hovered"></div>
-    </a>
-    <div class="card-info">
-      <div class="card-about">
-        <a class="card-tag tag-deals">Deals</a>
-      <div class="card-time">5/27/2018</div>
-      </div>
-      <h1 class="card-title">Apple is having big Sale for the first time</h1>
-      <div class="card-creator">by <a href="">Timur Mirzoyev</a></div>
-    </div>
-  </div>
-  <div class="card card-4">
-    <div class="card-img"></div>
-    <a href="" class="card-link">
-      <div class="card-img-hovered"></div>
-    </a>
-    <div class="card-info">
-      <div class="card-about">
-        <a class="card-tag tag-politics">Politics</a>
-      <div class="card-time">5/20/2018</div>
-      </div>
-      <h1 class="card-title">Net-Nutrality is coming to its end</h1>
-      <div class="card-creator">by <a href="">Gregoy Trem</a></div>
-    </div>
-  </div>
+class App extends React.Component {
+	state = { show: false }
+  
+	showModal = () => {
+	  this.setState({ show: true });
+	}
+	
+	hideModal = () => {
+	  this.setState({ show: false });
+	}
+	  
+	render() {
+	  return (
+		
+			<div class="digital-media">
+	<div class="cards">
+		
+	
+		
+		  <Modal show={this.state.show} handleClose={this.hideModal} >
+		  <YouTube
+        videoId="8srfKgvV9_M"
+        opts={opts} className="youtube-video"
+        
+      />
+			
+		  </Modal>
+<h3>Bands by Taylor Alexandria</h3>
+		  <p>Floated elements are removed from the normal document flow 
+		  
+<Button variant="contained" color="primary"
+ onClick={this.showModal}> Play</Button>
+		</p>
 </div>
-    );
+ </div>
+		
+	
+
+
+
+	  )
+	}
   }
-}
+  
+  const Modal = ({ handleClose, show, children }) => {
+	const showHideClassName = show ? 'modal display-block' : 'modal display-none';
+  
+	return (
+	  <div className={showHideClassName}>
+		<section className='modal-main'>
+		  {children}
+		  {/* <button
+			onClick={handleClose}
+		  >
+			Close
+		  </button> */}
+		</section>
+	  </div>
+	);
+  };
+  
+  
+//   const container = document.createElement('div');
+//   document.body.appendChild(container);
 
-
-export default RecipeReviewCard;
+  
+  export default App;
