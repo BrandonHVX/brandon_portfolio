@@ -28,7 +28,7 @@ const opts = {
 	  autoplay: 1
 	}
 
-class App extends React.Component {
+class BandsCard extends React.Component {
 	state = { show: false }
   
 	showModal = () => {
@@ -42,7 +42,7 @@ class App extends React.Component {
 	render() {
 	  return (
 		
-			<div class="digital-media">
+			<div class="bands-card">
 	<div class="cards">
 		
 	
@@ -55,13 +55,21 @@ class App extends React.Component {
       />
 			
 		  </Modal>
-<h3>Bands by Taylor Alexandria</h3>
+<h4>Bands by Taylor Alexandria</h4>
 		  <p>Floated elements are removed from the normal document flow 
-		  
-<Button variant="contained" color="primary"
- onClick={this.showModal}> Play</Button>
+
 		</p>
+
+
+<div class="card-button"><Button  variant="contained" color="primary"
+ onClick={this.showModal}> Watch Video</Button></div>
+
 </div>
+
+		  
+
+
+
  </div>
 		
 	
@@ -94,4 +102,4 @@ class App extends React.Component {
 //   document.body.appendChild(container);
 
   
-  export default App;
+  export default BandsCard;

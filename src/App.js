@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './components/Card.js';
+import BandsCard from './components/BandsCard.js';
 import './css/App.css';
 import Navi from './components/BottomNavi';
 import Navi2 from './components/BottomNavi2';
@@ -11,7 +11,10 @@ import Header from './components/Header.js';
 import Slider from './components/Slider.js';
 import phone from './images/iphone.png';
 import Button from '@material-ui/core/Button';
-
+import MyAvatar from './components/Avatar.js';
+import SynergyCard from './components/SynergyCard.js';
+import SalonCard from './components/SalonCard.js';
+import ScrollTop from './components/ScrollTop.js';
 
 function Landing() {
      return(
@@ -42,12 +45,11 @@ function WebDev() {
 <div class="title">WebDev</div>
 <Header />
 
-<div className="subpage" >
 
 
 <SynergyCard />
-<NyxCard />
-</div>
+
+
 
 <Navi />    
 </div>
@@ -61,8 +63,8 @@ function DigitalMedia() {
 <div class="title">Digital Media</div>
 <Header />
 <div className="subpage" >
-<Card />
-<Card />
+<BandsCard />
+<SalonCard />
 
 
 
@@ -102,25 +104,7 @@ function Resume (){
 
 
 
-function SynergyCard (){
-  return (
-    <div class="section syncard">
-    <div class="container">
-      <div class="row">
-        <div class="one-half column synphone">
-            <img class="phone" src={phone}/>
-       </div>
-        <div class="one-half column text ">
-        
-          <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
-          <Link to='/web-development/synergy'><Button variant="contained" color="primary">View Project</Button></Link>
-       
-        </div>
-      </div>
-    </div>
-  </div>
-  )
-}
+
 
 function NyxCard (){
   return (
@@ -133,8 +117,8 @@ function NyxCard (){
        </div>
         <div class="one-half column text ">
         
-        <h4 class="hero-heading">Social Media fitness app connecting users who love to exercise</h4>
-          <Link to='/web-development/synergy'><Button variant="contained" color="primary">View Project</Button></Link>
+        <h4 class="hero-heading">Top News Application Using New York Times API</h4>
+          <Link to='/web-development/nyx'><Button variant="contained" color="primary">View Project</Button></Link>
         </div>
       </div>
     </div>
@@ -152,10 +136,33 @@ function SynergyPage(){
 
 <Header />
 
+<Synergy />
+
 <div className="subpage" >
 
 
-<Synergy />
+
+
+</div>
+
+<Navi2 />    
+</div>
+
+  )
+}
+
+
+function NYXPage(){
+  return (
+<div class="page">
+<div class="title">Synergy Project</div>
+
+<Header />
+
+<div className="subpage" >
+nyx news
+
+
 
 </div>
 
@@ -226,7 +233,7 @@ class App extends Component {
  
        <div>
     
- 
+ <ScrollTop>
        
        <Route path="/" exact component={Landing} />
              
@@ -236,7 +243,8 @@ class App extends Component {
           <Route path="/home/design" component={Design} />
           <Route path="/home/resume" component={Resume} />
           <Route path='/web-development/synergy' component={SynergyPage} />
-             
+          <Route path='/web-development/nyx' component={NYXPage} />
+         </ScrollTop>    
 
        </div>
      </BrowserRouter>

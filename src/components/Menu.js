@@ -17,12 +17,13 @@ const opts = {
 
 
 export default ({ close }) => (
-  <div>
-         <div className="burger-menu open">
+ 
+         <div className="menu">
                  <div className="close" />
-       
+        <Profile />
+        
      </div>
-      <Profile />          
+              
   
-  </div>
+  
 );

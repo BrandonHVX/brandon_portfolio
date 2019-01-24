@@ -45,7 +45,7 @@ position: static;
 
 .title {
   position: fixed;
-  top: 58px;
+  top: 78px;
 margin: 0 12px;
   color: black;
   width: 100%;
@@ -59,11 +59,12 @@ margin: 0 12px;
 
 
 
-.headlogo {
+.header {
   position: fixed;
   top: 0;
   background-color: white;
   color: white;
+  height: 80px;
   width: 100%;
   z-index: 1;
   
@@ -72,11 +73,11 @@ margin: 0 12px;
 
 
 
-.headlogo img  {
+.bgheader img  {
   position: relative;
   width: 240px;
   height: 25px;
-  margin: 15px;
+  margin: 35px 10px 0px 15px;
   z-index: -1;
 
 

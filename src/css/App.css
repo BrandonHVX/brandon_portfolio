@@ -1,7 +1,7 @@
 
-.digital-media {
-
-	width: 350px;
+.bands-card {
+	position: relative;
+	width: 370px;
 	height: 490px;
 	margin: 10px;
 	background-image: url('../images/bta.svg');
@@ -13,17 +13,36 @@ background-repeat: no-repeat;
 }
 
 
+.salon-card {
+	position: relative;
+	width: 370px;
+	height: 490px;
+	margin: 70px;
+	background-image: url('../images/salon.svg');
+	background-position: center;
+	background-size: cover;
+background-repeat: no-repeat;
+
+	
+}
+
+.card-button {
+	
+	
+	float: right;
+}
 
 
 
 
 .cards {
-min-height: 40px;
-margin-top: 300px;
+
+position: absolute;
+    bottom: 0;
 color: black;
 padding: 10px;
-background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
-		  background: linear-gradient(transparent, rgba(255, 255, 255, 0.9));
+/* background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.5)));
+		  background: linear-gradient(transparent, rgba(8, 157, 243, 0.986)); */
 
 
 
@@ -34,7 +53,9 @@ background: -webkit-gradient(linear, left top, left bottom, from(transparent), t
 
 
 
-
+.synergylogo{
+	width: 300px;
+}
 
 .youtube-video{
 	width: 100%;
@@ -42,13 +63,79 @@ background: -webkit-gradient(linear, left top, left bottom, from(transparent), t
 }
 
 
-.card-button{
+.playbutton{
 	position: ;
-	margin: 20px;
+	margin: 12px auto;
 float: right;
+color: white;
+background-color: #1900ff;
 	 
 }
 
+
+
+
+  .burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  z-index: 9999;
+
+
+ 
+}
+
+.burger-menu .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+
+/* Menu */
+
+.menu {
+	list-style: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+	right: 0;
+	top:0;
+overflow: scroll;
+    display: flex;
+  padding: 15vh 0px 0px 0px;
+    margin: auto;
+    justify-content: center;
+
+ 
+    width: 100%;
+    text-align: center;
+
+ 
+  
+}
+.menu ul {
+  position: relative;
+ 
+  font-size: 24px;
+  padding: 0px;
+}
+.menu li {
+  list-style: outside none none;
+  margin: 10px 0px;
+  padding: 0;
+  cursor: pointer;
+}
+.menu li:hover {
+  color: #ff0000;
+}
 
 @media (min-width: 550px) {
 	.modal-main {
