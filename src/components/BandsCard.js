@@ -43,7 +43,7 @@ class BandsCard extends React.Component {
 	  return (
 		
 			<div class="bands-card">
-	<div class="cards">
+	<div class="cards"/>
 		
 	
 		
@@ -55,14 +55,15 @@ class BandsCard extends React.Component {
       />
 			
 		  </Modal>
-<h4>Bands by Taylor Alexandria</h4>
-		  <p>Floated elements are removed from the normal document flow 
 
+<p class="cards-text"><h4>Bands by Taylor Alexandria</h4>
+		  Floated elements are removed from the normal document flow 
+<div class="card-button"><Button  variant="contained" color="primary"
+ onClick={this.showModal}> Watch Video</Button></div>
 		</p>
 
 
-<div class="card-button"><Button  variant="contained" color="primary"
- onClick={this.showModal}> Watch Video</Button></div>
+
 
 </div>
 
@@ -70,7 +71,6 @@ class BandsCard extends React.Component {
 
 
 
- </div>
 		
 	
 

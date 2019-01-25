@@ -82,7 +82,92 @@
   
     
   
-  
+  @media only screen and (max-width: 400px) {
+   
+    .icon {
+      color: white;
+      font-size: 25px;
+      display: inline;
+      text-align: center;
+      
+    
+    }
+    
+    ul .icon:hover {
+      opacity: 0.5;
+    }
+    
+    .page .icon .title {
+      line-height: 2;
+    }
+    #t1:target ul .icon,
+    #t2:target ul .icon,
+    #t3:target ul .icon,
+    #t4:target ul .icon,
+    #t5:target ul .icon{
+      transform: scale(.6);
+      -webkit-transform: scale(.6);
+      -moz-transform: scale(.6);
+      -o-transform: scale(.6);
+      transition-delay: .25s;
+    }
+    #t1:target #uno,
+    #t2:target #dos,
+    #t3:target #tres,
+    #t4:target #cuatro,
+    #t5:target #cinco {
+      transform: scale(1.2) !important;
+      -webkit-transform: scale(1.2) !important;
+      -moz-transform: scale(1.2) !important;
+      -o-transform: scale(1.2) !important;
+    }
+    
+    ul {
+      list-style: none;
+      position: fixed;
+      z-index: 1;
+      right: 0;
+      bottom: 0;
+      display: flex;
+    padding: 0px 2px 0px 1px;
+      margin: auto;
+      justify-content: center;
+    background:  rgba(3, 111, 219, 0.986);
+      height: 90px;
+      width: 100%;
+      text-align: center;
+      
+    }
+    
+    a{
+      font-size: 10px;
+      text-align: center;
+    
+    
+     
+    }
+    
+    #menu .icon {
+    margin: 2px  0;
+      display: flex;
+    padding-bottom: 2px;
+      justify-content: center;
+      transition: all .5s ease-out !important;
+      -webkit-transition: all .5s ease-out;
+      -moz-transition: all .5s ease-out;
+      -o-transition: all .5s ease-out;
+    }
+    
+    #menu a {
+      text-decoration: none;
+      padding: 5px;
+      color: white;
+      
+    }
+
+
+
+  }
   
   
   

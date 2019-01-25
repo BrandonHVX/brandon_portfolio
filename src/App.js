@@ -60,11 +60,24 @@ function WebDev() {
 function DigitalMedia() {
   return (
     <div class="page">
-<div class="title">Digital Media</div>
+<div class="title">Digital Media
+
+Withird-Party manufacturers. Tack on interchangeable OLPFs and lens mounts and DSMC2 gives you the ultimate control over your footage.
+</div>
 <Header />
+
 <div className="subpage" >
+
+        
+      
+    
+
+<BandsCard />
+{/* <SalonCard />
 <BandsCard />
 <SalonCard />
+<BandsCard />
+<SalonCard /> */}
 
 
 

@@ -54,14 +54,16 @@ class SalonCard extends React.Component {
         
       />
 			
-		  </Modal>
+  </Modal>
+  
+  <p class="cards-text">	
 <h4>Salatto Salon</h4>
-		  <p>Floated elements are removed from the normal document flow 
+		  Floated elements are removed from the normal document flow 
 		  
-
-		</p>
         <div class="card-button"><Button  variant="contained" color="primary"
  onClick={this.showModal}> Watch Video</Button></div>
+		</p>
+
 </div>
 
 

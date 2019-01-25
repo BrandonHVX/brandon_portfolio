@@ -1,9 +1,9 @@
 
 .bands-card {
 	position: relative;
-	width: 370px;
+	width: 300px;
 	height: 490px;
-	margin: 10px;
+
 	background-image: url('../images/bta.svg');
 	background-position: center;
 	background-size: cover;
@@ -15,9 +15,9 @@ background-repeat: no-repeat;
 
 .salon-card {
 	position: relative;
-	width: 370px;
+	width: 340px;
 	height: 490px;
-	margin: 70px;
+	
 	background-image: url('../images/salon.svg');
 	background-position: center;
 	background-size: cover;
@@ -28,10 +28,10 @@ background-repeat: no-repeat;
 
 .card-button {
 	
-	
+	position: initial;
 	float: right;
+padding: 15px 20px;
 }
-
 
 
 
@@ -39,17 +39,33 @@ background-repeat: no-repeat;
 
 position: absolute;
     bottom: 0;
-color: black;
-padding: 10px;
+	
+background: linear-gradient(transparent, rgba(8, 157, 243, 0.966)); 
+height: 500px;
+width: 100%;
+/* padding: 10px; */
 /* background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.5)));
 		  background: linear-gradient(transparent, rgba(8, 157, 243, 0.986)); */
-
-
-
-	
 	
 	}
+
+
+	.cards-text {
+
+		position: absolute;
+		color: white;
+			bottom: 0;
+
 	
+	
+		
+		/* background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.5)));
+				  background: linear-gradient(transparent, rgba(8, 157, 243, 0.986)); */
+			
+			}
+	
+
+
 
 
 
@@ -149,5 +165,6 @@ overflow: scroll;
 		padding: 30px;
 		transform: translate(-50%,-50%);
 	  }
+	
  
   }
