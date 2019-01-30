@@ -11,10 +11,13 @@ import Header from './components/Header.js';
 import Slider from './components/Slider.js';
 import phone from './images/iphone.png';
 import Button from '@material-ui/core/Button';
+import Resume from './components/Resume';
 import MyAvatar from './components/Avatar.js';
 import SynergyCard from './components/SynergyCard.js';
 import SalonCard from './components/SalonCard.js';
 import ScrollTop from './components/ScrollTop.js';
+import NYXcard from './components/NYXcard.js';
+import NYX from './components/NYX.js';
 
 function Landing() {
      return(
@@ -42,15 +45,18 @@ function Home() {
 function WebDev() {
   return(
 <div class="page">
-<div class="title">WebDev</div>
+
 <Header />
+
+<div className="subpage" >
+<h6 class="title">Web Development</h6>
 
 
 
 <SynergyCard />
+<NYXcard />
 
-
-
+</div>
 <Navi />    
 </div>
 )
@@ -60,24 +66,18 @@ function WebDev() {
 function DigitalMedia() {
   return (
     <div class="page">
-<div class="title">Digital Media
 
-Withird-Party manufacturers. Tack on interchangeable OLPFs and lens mounts and DSMC2 gives you the ultimate control over your footage.
-</div>
 <Header />
-
+<h4 class="title">Digital Media</h4>
 <div className="subpage" >
 
-        
+   
       
     
 
 <BandsCard />
-{/* <SalonCard />
-<BandsCard />
-<SalonCard />
-<BandsCard />
-<SalonCard /> */}
+ <SalonCard />
+
 
 
 
@@ -101,11 +101,15 @@ function Design() {
 }
 
 
-function Resume (){
+function ResumePage (){
   return (
     <div>
       <div class="title">Resume</div>
       <Header />
+      <div class="subpage">
+      <Resume />
+
+      </div>
       <Navi />    
     </div>
   )
@@ -119,43 +123,24 @@ function Resume (){
 
 
 
-function NyxCard (){
-  return (
-    <div class="section nyxcard">
-   
-    <div class="container">
-      <div class="row">
-        <div class="one-half column nyxphone">
-            <img class="phone" src={phone}/>
-       </div>
-        <div class="one-half column text ">
-        
-        <h4 class="hero-heading">Top News Application Using New York Times API</h4>
-          <Link to='/web-development/nyx'><Button variant="contained" color="primary">View Project</Button></Link>
-        </div>
-      </div>
-    </div>
-    </div>
-  
-  )
-}
+
 
 
 
 function SynergyPage(){
   return (
 <div class="page">
-<div class="title">Synergy Project</div>
+
 
 <Header />
 
+
+
+<div className="page" >
+
+
+
 <Synergy />
-
-<div className="subpage" >
-
-
-
-
 </div>
 
 <Navi2 />    
@@ -168,12 +153,12 @@ function SynergyPage(){
 function NYXPage(){
   return (
 <div class="page">
-<div class="title">Synergy Project</div>
+
 
 <Header />
 
 <div className="subpage" >
-nyx news
+<NYX />
 
 
 
@@ -254,7 +239,7 @@ class App extends Component {
              <Route path="/home/digital-media" component={DigitalMedia} />
           <Route path="/home/web-development"component={Home} />
           <Route path="/home/design" component={Design} />
-          <Route path="/home/resume" component={Resume} />
+          <Route path="/home/resume" component={ResumePage} />
           <Route path='/web-development/synergy' component={SynergyPage} />
           <Route path='/web-development/nyx' component={NYXPage} />
          </ScrollTop>    

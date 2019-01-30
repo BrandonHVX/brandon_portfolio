@@ -16,13 +16,15 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import BrandonPic from '../images/BrandonPic.jpg';
 
 const styles = theme => ({
   card: {
-    maxWidth: 400,
+    maxWidth: 300,
+   
   },
   media: {
-    height: 0,
+    height: 300,
     paddingTop: '56.25%', // 16:9
   },
   actions: {
@@ -55,29 +57,17 @@ class RecipeReviewCard extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <CardHeader
-          avatar={
-            <Avatar aria-label="Recipe" className={classes.avatar}>
-              R
-            </Avatar>
-          }
-          action={
-            <IconButton>
-              <MoreVertIcon />
-            </IconButton>
-          }
-          title="Shrimp and Chorizo Paella"
-          subheader="September 14, 2016"
-        />
+     
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/paella.jpg"
+          image={BrandonPic}
           title="Paella dish"
         />
         <CardContent>
           <Typography component="p">
             This impressive paella is a perfect party dish and a fun meal to cook together with your
             guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          
           </Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>

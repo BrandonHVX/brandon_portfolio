@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import phone from '../images/iphone.png';
-import synergylogo from '../images/synergylogo.png'
+import synergylogo from '../images/synergylogo.png';
 
+import nyx from '../images/nyxlogo.png';
 
 class Synergy extends Component {
     render(){
@@ -12,15 +13,15 @@ class Synergy extends Component {
 <div class="wrapper">
  
 
-  <section id="home" class="sec-main-syn">
+  <section id="home" class="sec-main-nyx">
   
 
       <div class="main-heading-page">
       <img class="phone" style={{ maxHeight: '260px' }} src={phone}/>
       
-      <img class="synergylogo" src={synergylogo}/>
+      <img class="synergylogo" src={nyx}/>
 
-     <h1 >Your next workout partner is one swipe away.</h1> </div>
+     <h2 >Your next workout partner is one swipe away.</h2> </div>
   </section>
   
   <div class="section synphone">

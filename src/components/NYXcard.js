@@ -2,21 +2,21 @@ import React , {Component} from "react";
 import Button from '@material-ui/core/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import phone from '../images/iphone.png';
-import synergylogo from '../images/synergylogo.png';
+import nyx from '../images/nyxlogo.png';
 
-class SynergyCard extends Component {
+class NyxCard extends Component {
     render (){
         return(
 
 <div class="wrapper">
  
 
- <section id="home" class="sec-main-syn">
+ <section id="home" class="sec-main-nyx">
  
  <img class="phone" style={{ maxHeight: '400px' }} src={phone}/>
-     <div class="main-heading"><img class="synergylogo" src={synergylogo}/>
+     <div class="main-heading"><img class="synergylogo" src={nyx}/>
 
-    <h1 >Your next workout partner is one swipe away.</h1> </div>
+    <h1>NEW YORK NEWS SITE </h1> </div>
     
  </section>
  
@@ -32,8 +32,8 @@ class SynergyCard extends Component {
 
      <div class="row">
        <div class="col-sm-6 col-sm-offset-3">
-         <p> Social Media app designed to conect users in search of thier next workout parter.</p>
-          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/synergy'><Button variant="contained" color="primary">View Project</Button></Link>
+         <p> Top News Stories site from New York Times API.</p>
+          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/nyx'><Button variant="contained" color="primary">View Project</Button></Link>
 
            
            </p>
@@ -57,11 +57,9 @@ class SynergyCard extends Component {
 
  </div>
 
-        )
-    }
+)
+}
 }
 
 
-
-export default SynergyCard;
-   
+export default NyxCard;

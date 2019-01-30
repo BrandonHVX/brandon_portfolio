@@ -7,9 +7,9 @@
   /* Sections
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .section {
-    padding: 8rem 0 7rem;
+    padding: 2rem 0 2rem;
     text-align: center;
-    background-image:  url('  http://www.stringsbyreiko.com/media/care_preview@3x-fa9b87aed62cddb52d4097b30910cc693b14e07921d57c81f64bde5c123f6f6c.jpg');
+    /* background-image:  url('  http://www.stringsbyreiko.com/media/care_preview@3x-fa9b87aed62cddb52d4097b30910cc693b14e07921d57c81f64bde5c123f6f6c.jpg'); */
   }
   .section-heading,
   .section-description {
@@ -19,17 +19,18 @@
 
   .synbg{
 
-    background-color: rgba(0, 0, 0, 0.5);
+   
     border-radius: 80px;
 
   }
   .synphone {
-      background-color: rgb(255, 72, 0);
-      background-image:  url('  http://www.stringsbyreiko.com/media/care_preview@3x-fa9b87aed62cddb52d4097b30910cc693b14e07921d57c81f64bde5c123f6f6c.jpg');
+      /* background-color: rgb(255, 72, 0); */
+      /* background-image:  url('  http://www.stringsbyreiko.com/media/care_preview@3x-fa9b87aed62cddb52d4097b30910cc693b14e07921d57c81f64bde5c123f6f6c.jpg'); */
     background-blend-mode: multiply;
     background-repeat: no-repeat;
    background-size: cover;
-   margin: 15px; 
+   height: 800px;
+
 
      
   }
