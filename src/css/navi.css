@@ -58,7 +58,7 @@
   }
   
   a{
-    font-size: 12px;
+    font-size: 10px;
   
   
    
@@ -86,7 +86,7 @@
   
     
   
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 414px) {
    
     .icon {
       color: white;
@@ -133,7 +133,7 @@
       right: 0;
       bottom: 0;
       display: flex;
-    padding: 0px 2px 0px 1px;
+    padding: 0px 2px 0px 2px;
       margin: auto;
       justify-content: center;
       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -168,7 +168,7 @@
     
     #menu a {
       text-decoration: none;
-      padding: 5px;
+      padding: 3px;
       color: white;
       
     }
