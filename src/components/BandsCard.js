@@ -56,9 +56,9 @@ class BandsCard extends React.Component {
 			
 		  </Modal>
 
-<p class="cards-text"><h4>Bands by Taylor Alexandria</h4>
-		  Floated elements are removed from the normal document flow 
-<div class="card-button"><Button  variant="contained" color="primary"
+<p class="cards-text"><h3>Bands by Taylor Alexandria</h3>
+	Business profile and interview with fashion designer Taylor Alexandria.
+<div class="card-button"><Button variant="contained" color="primary" 
  onClick={this.showModal}> Watch Video</Button></div>
 		</p>
 

@@ -57,8 +57,8 @@ class SalonCard extends React.Component {
   </Modal>
   
   <p class="cards-text">	
-<h4>Salatto Salon</h4>
-		  Floated elements are removed from the normal document flow 
+<h3>Salatto Salon</h3>
+		Business profile and Interview with hair and beauty stylists from Salatto Salon.
 		  
         <div class="card-button"><Button  variant="contained" color="primary"
  onClick={this.showModal}> Watch Video</Button></div>

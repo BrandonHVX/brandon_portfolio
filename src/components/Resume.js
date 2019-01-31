@@ -19,7 +19,7 @@ class Resume extends Component {
                 </div>
                 <div class="pos-a">
                     <h1 class="me">Brandon Gines</h1>
-                    <p class="title">Developer/Producer/Designer</p>
+           
                 </div>
                 <p class="blurb">  Experienced creative professional with cross-functional skills including expertise in  full stack web development, film/video production and digital design, product marketing, customer service and client engagement. </p>
             </header>
@@ -32,12 +32,12 @@ class Resume extends Component {
                     <div class="section-content">
                         <section class="sub-section">
                             <h1 class="focus">Florida Film House</h1>
-                            <div class="org">Tincidunt Quis 
-                            <p class="time-frame">March 2010 - Present</p>
+                            <div class="org">Digital Content Manager
+                            <p class="time-frame">September 2016 - Present</p>
                             </div>
         
                             
-                            <p class="description">Produced visual advertisements for online product and brand marketing campaigns. Skilled in cross-functional and team collaboration for preparation of company interviews, commercials, and short films.</p>
+                            <p class="description"> Responsible for managing content on and all social media platforms. Produced visual advertisements for online product and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook and other digital ads. Assited with new front end development plans and preparation to implement React.js </p>
                         </section>
                         <section class="sub-section">
                             <h1 class="focus">Wyncode Academy</h1>
@@ -110,14 +110,7 @@ ment and React.js for front-end user experience. Interpreted Json data from exis
 						</ul>
                     </div>
                 </section>
-                <section>
-                    <h1 class="section-heading">Work Samples</h1>
-                    <div class="section-content">
-                        <p>Samples of work available upon request.</p>
-						<p>View latest CSS experiments on <a href="https://codepen.io/jasonadelia" target="_blank">codepen</a>.</p>
-                        <p>View this resume <span class="web-only">on a mobile device</span><span class="print-only">in a web browser</span> for the fully responsive experience <span class="print-only">(https://landoresume.github.com)</span></p>
-                    </div>
-                </section>
+                
             </div>
         </div> 
 		

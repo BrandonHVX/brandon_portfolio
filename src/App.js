@@ -18,6 +18,7 @@ import SalonCard from './components/SalonCard.js';
 import ScrollTop from './components/ScrollTop.js';
 import NYXcard from './components/NYXcard.js';
 import NYX from './components/NYX.js';
+import Chip from '@material-ui/core/Chip';
 
 function Landing() {
      return(
@@ -49,7 +50,12 @@ function WebDev() {
 <Header />
 
 <div className="subpage" >
-<h6 class="title">Web Development</h6>
+
+<h6 class="title">
+
+<Chip label="Web Development" className="title-button" variant="outlined" color="primary"/>
+
+</h6>
 
 
 
@@ -63,12 +69,15 @@ function WebDev() {
 }
 
 
-function DigitalMedia() {
+function DigitalMedia(props) {
+  const { classes } = props;
   return (
     <div class="page">
 
 <Header />
-<h4 class="title">Digital Media</h4>
+<h4 class="title">
+<Chip label="Digital Media" className="title-button" variant="outlined" color="primary"/>
+</h4>
 <div className="subpage" >
 
    
@@ -76,6 +85,7 @@ function DigitalMedia() {
     
 
 <BandsCard />
+
  <SalonCard />
 
 
@@ -92,8 +102,12 @@ function DigitalMedia() {
 
 function Design() {
   return (
-    <div>
-<div class="title">Design</div>
+    <div class="page">
+    <Header />
+<div class="title">
+<Chip label="Design" variant="outlined" color="primary"/>
+
+</div>
 
  <Navi />    
  </div>
@@ -103,8 +117,10 @@ function Design() {
 
 function ResumePage (){
   return (
-    <div>
-      <div class="title">Resume</div>
+    <div class="page">
+      <div class="title">
+      <Chip label="Resume" variant="outlined" color="primary"/>
+      </div>
       <Header />
       <div class="subpage">
       <Resume />

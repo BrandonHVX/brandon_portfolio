@@ -21,7 +21,7 @@ class Synergy extends Component {
       
       <img class="synergylogo" src={nyx}/>
 
-     <h2 >Your next workout partner is one swipe away.</h2> </div>
+     <h3 >New York Times: Top Stories API </h3> </div>
   </section>
   
   <div class="section synphone">
@@ -53,14 +53,14 @@ class Synergy extends Component {
       <div class="row">
         <div class="col-sm-4">
        
-        <i class="fas fa-4x fa-users"></i>
+        <i class="far fa-4x fa-newspaper"></i>
           <h2 class="h3">Social Media </h2>
 
           <p>Connect with indivduals with similar goals.</p>
         </div>
 
         <div class="col-sm-4">
-        <i class="fas fa-4x fa-comments"></i>
+        <i class="fab fa-4x fa-flipboard"></i>
 
           <h2 class="h3">In-App Messaging</h2>
 
@@ -118,19 +118,13 @@ class Synergy extends Component {
         </div>
 
         <div class="col-md-4">
-      <i class="devicon-ruby-plain"></i>
+        <i class="devicon-express-original colored"></i>
      
-        <h2 class="h3">Ruby</h2>
+        <h2 class="h3">Express.js</h2>
 
 <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
         </div>
-        <div class="col-md-4">
-      
-      <i class="devicon-rails-plain"></i>
-        <h2 class="h3">Rails</h2>
-
-<p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
-        </div>
+  
 
         <div class="col-sm-4">
         <i class="devicon-bootstrap-plain"></i>
