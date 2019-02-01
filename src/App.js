@@ -103,7 +103,7 @@ function DigitalMedia(props) {
 function Design() {
   return (
     <div class="page">
-    <Header />
+    
 <div class="title">
 <Chip label="Design" variant="outlined" color="primary"/>
 
@@ -152,7 +152,7 @@ function SynergyPage(){
 
 
 
-<div className="page" >
+<div className="subpage" >
 
 
 

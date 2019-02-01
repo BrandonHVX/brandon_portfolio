@@ -33,6 +33,9 @@ background-repeat: no-repeat;
 padding: 15px 20px;
 }
 
+
+
+
 .devicon-ruby-plain{
 font-size: 50px;
 
@@ -104,7 +107,16 @@ background-color: #1900ff;
 	 
 }
 
-
+.fa-times {
+	color:white;
+	font-size: 20px;
+	display: inline-block;
+	cursor: pointer;
+	position: fixed;
+	right: 35px;
+	top: 5px;
+	z-index: 9999;
+}
 
   .burger-menu,
 .burger-menu.open {

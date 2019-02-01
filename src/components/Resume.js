@@ -15,7 +15,7 @@ class Resume extends Component {
 <div class="header-container">
             <header class="wrapper cf">
                 <div class="pos-b">
-                    <img class="logo" src={BrandonPic} alt=""/>
+                    
                 </div>
                 <div class="pos-a">
                     <h1 class="me">Brandon Gines</h1>

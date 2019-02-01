@@ -48,7 +48,11 @@ class BandsCard extends React.Component {
 	
 		
 		  <Modal show={this.state.show} handleClose={this.hideModal} >
-		  <YouTube
+			<i class=" fas fa-times"
+ onClick={this.hideModal}> </i>
+		  <div className="close" />
+			
+			<YouTube
         videoId="8srfKgvV9_M"
         opts={opts} className="youtube-video"
         
