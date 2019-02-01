@@ -73,9 +73,23 @@ class RecipeReviewCard extends React.Component {
         />
         <CardContent>
           <Typography component="p">
-          <h6> Brandon Gines</h6>
-          Experienced creative professional with cross-functional skills including expertise in full stack web development, film/video production and digital design, product marketing, customer service and client engagement.
-          
+          <div id="contact">
+          <div class="item">
+          <i class="icon-contact fab fa-github"></i>
+    <span class="caption">Git Hub</span>
+</div>
+<div class="item">
+<i class="icon-contact fab fa-linkedin"></i>
+    <span class="caption">LinkedIn</span>
+</div><div class="item">
+<i class="icon-contact fab fa-github"></i>
+    <span class="caption">E-mail</span>
+</div><div class="item">
+<a href="tel://1-310-651-1330"><i class="icon-contact fab fa-github"></i>
+    <span class="caption">Phone  </span></a>
+</div>
+
+     </div>
           </Typography>
           <Typography component="p">
           <h6> Brandon Gines</h6>

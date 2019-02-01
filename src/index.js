@@ -9,7 +9,7 @@ import './css/slider.css';
 import './css/resume.css';
 import './css/digitalmedia.css';
 import './css/webdev.scss';
-// import './css/normalize.css';
+import './css/normalize.css';
 import './css/skeleton.css';
 
 

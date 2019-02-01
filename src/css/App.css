@@ -190,10 +190,81 @@ overflow: scroll;
   margin: 10px 0px;
   padding: 0;
   cursor: pointer;
+  color: black;
 }
 .menu li:hover {
   color: #ff0000;
 }
+
+
+
+
+.contact-list {
+    list-style: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    display: flex;
+ 
+    margin-left: 20px;
+    justify-content: center;
+
+	color: black;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+
+ 
+  a{
+	font-size: 10px;
+	color: black;
+  }
+	.icon-contact {
+		color: black;
+		font-size: 20px;
+		display: inline;
+		
+	  
+	  }
+	  
+  #contact .icon {
+  margin: 2px  0;
+    display: flex;
+  padding-bottom: 2px;
+    justify-content: center;
+    transition: all .5s ease-out !important;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+  }
+  
+  #contact a {
+    text-decoration: none;
+    padding-top: 12px;
+    color: black;
+    
+  }
+
+
+  div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+
+.caption {
+    display: block;
+}
+
+
+
+
+
 
 @media (min-width: 550px) {
 	.modal-main {
