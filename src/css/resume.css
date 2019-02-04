@@ -163,7 +163,7 @@ body {
         
     }
     .title{
-        text-align:left;
+        text-align:center;
     }
     .section-heading{
         background:none;
@@ -187,7 +187,7 @@ body {
 
 @media only screen and (min-width: 710px) {
     .pos-a, .pos-b{float:left;}
-    .pos-a{width:67.5%; margin-right:5%;}
+    .pos-a{width:100%; margin-right:5%;}
     .pos-b{width:27.5%;}
 
     .blurb{
@@ -324,7 +324,7 @@ body {
     
     .me{
         font-size:7em;
-        text-align:left;
+        text-align: center;
     }
     .title{
         text-align:left;

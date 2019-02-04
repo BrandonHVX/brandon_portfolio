@@ -24,8 +24,7 @@ import Button from '@material-ui/core/Button';
 
 const opts = {
 
-
-	  autoplay: 1
+	playerVars: { 'autoplay': 1, 'controls': 0 },
 	}
 
 class BandsCard extends React.Component {

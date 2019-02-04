@@ -14,8 +14,8 @@ const styles = {
     marginTop: "10px"
   };
   const contentStyle = {
-    background: "rgba(255,255,255,0)",
-    width: "80%",
+    background: "rgba(0, 153, 255,0.5)",
+    width: "100%",
     height:"100vh",
     border: "none",
     overflow: "scroll",
@@ -31,7 +31,7 @@ class Header extends Component {
 
        <Popup
       modal
-      overlayStyle={{ background: "rgba(255,255,255,0.98",
+      overlayStyle={{ 
                         height:"100vh", overflow: "scroll"
                      }}
       contentStyle={contentStyle}

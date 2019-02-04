@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
+import MyAvatar from './Avatar.js';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
@@ -17,22 +18,29 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import BrandonPic from '../images/BrandonPic.jpg';
+import Chip from '@material-ui/core/Chip';
 
 const styles = theme => ({
   card: {
     maxWidth: 300,
-    height:475,
+    height:350,
    justifyContent: 'center',
-   
+   paddingTop:30,
   },
   media: {
     height: 150,
-    width:150,
-   marginLeft: "80px",
+    maxWidth:150,
+  
     justifyContent: 'center',
+
+  },
+  bigAvatar: {
     
-    
+    width: 150,
+    height: 150,
+    margin: 'auto',
    
+    justifyContent: 'center',
 
   },
   actions: {
@@ -66,36 +74,50 @@ class RecipeReviewCard extends React.Component {
     return (
       <Card className={classes.card}>
      
-        <CardMedia
-          className={classes.media}
-          image={BrandonPic}
-          title="Paella dish"
-        />
+        <CardMedia>
+     <Avatar alt="Remy Sharp" src={BrandonPic} className={classes.bigAvatar} />   
+</CardMedia>
+
         <CardContent>
-          <Typography component="p">
+        <Typography component="p">
+        <Chip label="Contact" className="title-button" variant="outlined" color="primary"/>
+
+          
+          </Typography>
+
+        <Typography component="p">
+          <h4> Brandon Gines</h4>
+          
+          </Typography>
+        
+          <Typography component="p"> 
           <div id="contact">
           <div class="item">
+          <a href="https://github.com/BrandonHVX">
           <i class="icon-contact fab fa-github"></i>
-    <span class="caption">Git Hub</span>
+         <span class="caption">Git Hub</span></a>
 </div>
 <div class="item">
+
+<a href="https://www.linkedin.com/in/brandon-gines-02a9a6169">
 <i class="icon-contact fab fa-linkedin"></i>
-    <span class="caption">LinkedIn</span>
-</div><div class="item">
-<i class="icon-contact fab fa-github"></i>
-    <span class="caption">E-mail</span>
-</div><div class="item">
-<a href="tel://1-310-651-1330"><i class="icon-contact fab fa-github"></i>
+<span class="caption">LinkedIn</span></a>
+</div>
+
+<div class="item">
+<a href="mailto:brandongines@gmail.com">
+<i class="icon-contact fas fa-envelope "></i>
+    <span class="caption">E-mail</span></a>
+</div>
+
+<div class="item">
+<a href="tel://1-310-651-1330"><i class="icon-contact fas fa-phone"></i>
     <span class="caption">Phone  </span></a>
 </div>
 
      </div>
           </Typography>
-          <Typography component="p">
-          <h6> Brandon Gines</h6>
-          Experienced creative professional with cross-functional skills including expertise in full stack web development, film/video production and digital design, product marketing, customer service and client engagement.
-          
-          </Typography>
+       
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
           

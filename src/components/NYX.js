@@ -32,7 +32,9 @@ class Synergy extends Component {
    </div>
     <div class="one-half column text ">
     
-      <h4 class="hero-heading">  Hi, my name is Alex Devero and I am a Web Designer & Developer based in Prague. I love crafting beautiful web pages in HTML5, CSS3 and JavaScript or jQuery. My other skills include WordPress, Photoshop, Illustrator. You can grab my CV in
+      <h4 class="hero-heading">   
+NYX NEWS is the new way to get your daily top stories from The New York Times. Our platform allows you to easily select your favorite three sections from the New York Times and displays in a new and creative format.
+
 </h4>
     </div>
   </div>
@@ -54,17 +56,17 @@ class Synergy extends Component {
         <div class="col-sm-4">
        
         <i class="far fa-4x fa-newspaper"></i>
-          <h2 class="h3">Social Media </h2>
+          <h2 class="h3">  News Web Application </h2>
 
-          <p>Connect with indivduals with similar goals.</p>
+          <p> Top News Stories from all sections of the New York Times </p>
         </div>
 
         <div class="col-sm-4">
         <i class="fab fa-4x fa-flipboard"></i>
 
-          <h2 class="h3">In-App Messaging</h2>
+          <h2 class="h3">Flipboard Inspired </h2>
 
-          <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+          <p> Concept inspired by Flipboard allowing users to customize their feed of various sections and topics.</p>
         </div>
 
         <div class="col-sm-4">
@@ -114,7 +116,9 @@ class Synergy extends Component {
         <i class="fab fa-4x fa-react"></i>
         <h2 class="h3">React.js</h2>
 
-          <p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+          <p>Front end development framework.
+Dynamic buttons and interactive front end.
+</p>
         </div>
 
         <div class="col-md-4">
@@ -122,55 +126,23 @@ class Synergy extends Component {
      
         <h2 class="h3">Express.js</h2>
 
-<p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
+<p>
+Backend development framework used to host The NY Times API.
+Intergration with Axios for HTTP request and responses of json data.
+
+
+
+
+</p>
         </div>
   
 
-        <div class="col-sm-4">
-        <i class="devicon-bootstrap-plain"></i>
-        <h2 class="h3">Bootstrap</h2>
-
-<p>All websites are written in valid and clean HTML5 / CSS3 &amp; JavaScript (jQuery).</p>
-        </div>
+  
       </div>
     </div>
   </section>
 
-  <section id="contact" class="sec-contact">
-    <div class="container">
-      <h1>Hire me</h1>
-
-      <hr />
-
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
-          <form class="center-block" action="#" method="post">
-            <div class="form-group">
-              <label class="sr-only" for="inputName">Full name</label>
-
-              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" required />
-            </div>
-
-            <div class="form-group">
-              <label for="inputMail" class="sr-only">Email Address</label>
-
-              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" required />
-            </div>
-
-            <div class="form-group">
-              <label for="inputMessage" class="sr-only">Your Message</label>
-
-              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
-            </div>
-
-            <div class="form-group">
-              <button class="btn btn-default center-block" type="submit" value="Hire me">Hire me</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   </div>
 

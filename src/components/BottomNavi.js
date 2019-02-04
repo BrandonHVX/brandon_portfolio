@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, Nav, NavLink } from "react-router-dom";
 const styles = {
   root: {
     width: "100%",
@@ -13,26 +13,31 @@ const styles = {
 };
 
 class SimpleBottomNavigation extends Component {
-  state = {
-    value: 0,
-  };
+  constructor(){
+    super();
 
-  handleChange = (event, value) => {
-    this.setState({ value });
-  };
+    this.state = {
+       black: true
+    }
+}
+
+changeColor(){
+   this.setState({black: !this.state.black})
+}
 
   render() {
-    const { classes } = this.props;
-    const { value } = this.state;
-
+  let btn_class = this.state.black ? "blackButton" : "whiteButton";
     return (
     <div id="menu">
     <ul className="navi">
-
- <Link to="/home/web-development"><a><li class="icon fa fa-laptop-code" id="uno"></li>WEB DEV</a></Link>
- <Link to="/home/digital-media"><a><li class="icon fas fa-video" id="dos"></li>VIDEOS</a></Link>
-<Link to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>DESIGN</a></Link>
-<Link to="/home/resume"><a><li class="icon fas fa-file" id="cinco"></li>RESUME</a></Link>
+    {/* <button className={btn_class} onClick={this.changeColor.bind(this)}>
+                  Button
+             </button> */}
+             
+<NavLink activeClassName='is-active' to="/home/web-development"  ><a><li class="icon fa fa-laptop-code" id="uno"></li>WEB DEV</a></NavLink>
+<NavLink activeClassName='is-active' to="/home/digital-media"><a><li class="icon fas fa-video" id="dos"></li>VIDEOS</a></NavLink>
+<NavLink activeClassName='is-active' to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>DESIGN</a></NavLink>
+<NavLink activeClassName='is-active' to="/home/resume"><a><li class="icon fas fa-file" id="cinco"></li>RESUME</a></NavLink>
 </ul>
      </div>
        

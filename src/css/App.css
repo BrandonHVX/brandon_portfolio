@@ -1,4 +1,15 @@
 
+
+
+
+.is-active{
+  color:red;
+  background-color: rgba(0, 0,0, 0.5);
+
+
+}
+
+
 .bands-card {
 	position: relative;
 	width: 350px;
@@ -58,7 +69,7 @@ font-size: 50px;
 position: absolute;
     bottom: 0;
 	
-background: linear-gradient(transparent, rgba(3, 34, 121, 0.9));
+background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
 height: 500px;
 width: 100%;
 /* padding: 10px; */
@@ -217,9 +228,7 @@ overflow: scroll;
     z-index: 1;
     right: 0;
     bottom: 0;
-    display: flex;
  
-    margin-left: 20px;
     justify-content: center;
 
 	color: black;
@@ -232,18 +241,29 @@ overflow: scroll;
  
   a{
 	font-size: 10px;
-	color: black;
+  color: black;
+  
   }
+
+
 	.icon-contact {
 		color: black;
-		font-size: 20px;
-		display: inline;
-		
+		font-size: 25px;
+    display: inline;
+
+
 	  
-	  }
+    }
+    
+
+#contact {
+  padding-bottom: 30px;
+}
+
 	  
   #contact .icon {
   margin: 2px  0;
+  
     display: flex;
   padding-bottom: 2px;
     justify-content: center;
@@ -257,6 +277,7 @@ overflow: scroll;
     text-decoration: none;
     padding-top: 12px;
     color: black;
+    
     
   }
 
