@@ -6,6 +6,8 @@ import BrandonPic from '../images/BrandonPic.jpg';
 
 
 class Resume extends Component {
+
+    
     render(){
         return (
 
@@ -37,7 +39,7 @@ class Resume extends Component {
                             </div>
         
                             
-                            <p class="description"> Responsible for managing content on and all social media platforms. Produced visual advertisements for online product and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook and other digital ads. Assited with new front end development plans and preparation to implement React.js </p>
+                            <p class="description"> Responsible for managing content on and all social media platforms. Produced and designed visual advertisements for online product and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook and other digital ads. Assited with new front end development plans and preparation to implement React.js for enhanced user experience</p>
                         </section>
                         <section class="sub-section">
                             <h1 class="focus">Wyncode Academy</h1>
@@ -78,7 +80,7 @@ ment and React.js for front-end user experience. Interpreted Json data from exis
                             <p class="description">St. Louis, MO</p>
                         </section>
                         <section class="sub-section">
-                            <h1 class="focus"> St Louis Community College </h1>
+                            <h1 class="focus"> St Louis Community College at Forest Park </h1>
                             <p class="org">A.S. Graphic Design </p>
                             <p class="description">January 2002 - October 2003</p>
                             <p class="description">St. Louis, MO</p>
@@ -99,22 +101,12 @@ ment and React.js for front-end user experience. Interpreted Json data from exis
                         </ol>
                     </div>
                 </section>
-                <section>
-                    <h1 class="section-heading">Contact</h1>
-                    <div class="section-content">
-    				<ul>
-							<li>Miami Beach Police Department- Videographer/Editor for 2013 Officer Appreciation Awards.</li>
-							<li>455.456.45.4558.4559</li>
-							<li class="social-links"><a href="https://twitter.com/jasonadelia/" target="_blank"><img src="https://dl.dropbox.com/u/9286033/jdresume/img/twitter-bird-light-bgs.png" alt="@jasonadelia"/></a></li>
-							<li class="social-links"><a href="https://www.linkedin.com/" target="_blank"><img src="https://dl.dropbox.com/u/9286033/jdresume/img/LinkedIn_IN_Icon_25px.png" alt="LinkedIn"/></a></li>
-						</ul>
-                    </div>
-                </section>
+             
                 
             </div>
         </div> 
 		
-		<div class="wrapper download-link web-only"><a href="#">Download as PDF</a></div>
+		{/* <div class="wrapper download-link web-only"><a href="#">Download as PDF</a></div> */}
 
 
 

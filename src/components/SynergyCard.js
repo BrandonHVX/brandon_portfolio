@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import phone from '../images/iphone.png';
 import synergylogo from '../images/synergylogo.png';
+import synlogin from '../images/syn-login.png';
 
 class SynergyCard extends Component {
     render (){
@@ -13,7 +14,7 @@ class SynergyCard extends Component {
 
  <section id="home" class="sec-main-syn">
  
- <img class="phone" style={{ maxHeight: '400px' }} src={phone}/>
+ <img class="phone" style={{ maxHeight: '400px' }} src={synlogin}/>
      <div class="main-heading"><img class="synergylogo" src={synergylogo}/>
 
     <h1 >Your next workout partner is one swipe away.</h1> </div>

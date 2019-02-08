@@ -63,7 +63,7 @@
   .phone {
  
     display: flex;
-    max-width: 40%;
+    max-width: 80%;
     margin: 2px auto 0;
   }
   .phone + .phone {
@@ -141,11 +141,11 @@
   /* Bigger than 550 */
   @media (min-width: 550px) {
     .section {
-      padding: 2rem 0 2rem;
+      padding: 1rem 0 1px;
     }
   
     .phone {
-        max-width: 60%;
+        max-width: 80%;
       top: -7rem;
       right: 3rem;
       max-height: 362px;
@@ -176,6 +176,7 @@
 
     }
 
+    
 
     
     .section {
@@ -191,6 +192,7 @@
     }
     .phone {
       top: -14rem;
+      max-width: 80%;
       right: 5rem;
       max-height: 510px;
     }

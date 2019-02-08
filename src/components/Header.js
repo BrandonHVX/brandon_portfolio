@@ -14,7 +14,7 @@ const styles = {
     marginTop: "10px"
   };
   const contentStyle = {
-    background: "rgba(0, 153, 255,0.5)",
+    background: "rgba(0, 153, 255,0.9)",
     width: "100%",
     height:"100vh",
     border: "none",

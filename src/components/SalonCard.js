@@ -48,7 +48,11 @@ class SalonCard extends React.Component {
 	
 		
 		  <Modal show={this.state.show} handleClose={this.hideModal} >
-		  <YouTube
+			<i class=" fas fa-times"
+ onClick={this.hideModal}> </i>
+		
+			
+			<YouTube
         videoId="wXFA-SFZaTc"
         opts={opts} className="youtube-video"
         

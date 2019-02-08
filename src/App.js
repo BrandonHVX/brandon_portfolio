@@ -69,8 +69,8 @@ function WebDev() {
 }
 
 
-function DigitalMedia(props) {
-  const { classes } = props;
+function DigitalMedia() {
+ 
   return (
     <div class="page">
 
@@ -82,8 +82,6 @@ function DigitalMedia(props) {
 
    
       
-    
-
 <BandsCard />
 
  <SalonCard />

@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import phone from '../images/iphone.png';
 import synergylogo from '../images/synergylogo.png';
-
+import nyxpage from '../images/nyx-page.png';
 import nyx from '../images/nyxlogo.png';
-
+import nyxphone from '../images/nyx-phone.png';
 class Synergy extends Component {
     render(){
         return (
@@ -17,7 +17,7 @@ class Synergy extends Component {
   
 
       <div class="main-heading-page">
-      <img class="phone" style={{ maxHeight: '260px' }} src={phone}/>
+      <img class="phone" style={{ maxHeight: '260px' }} src={nyxphone}/>
       
       <img class="synergylogo" src={nyx}/>
 
@@ -28,14 +28,14 @@ class Synergy extends Component {
 <div class="container synbg">
   <div class="row">
     <div class="one-half column ">
-        <img class="phone" src={phone}/>
+        <img class="phone" src={nyxpage}/>
    </div>
     <div class="one-half column text ">
     
-      <h4 class="hero-heading">   
+      <h5 class="hero-heading">   
 NYX NEWS is the new way to get your daily top stories from The New York Times. Our platform allows you to easily select your favorite three sections from the New York Times and displays in a new and creative format.
 
-</h4>
+</h5>
     </div>
   </div>
 </div>          
@@ -69,41 +69,13 @@ NYX NEWS is the new way to get your daily top stories from The New York Times. O
           <p> Concept inspired by Flipboard allowing users to customize their feed of various sections and topics.</p>
         </div>
 
-        <div class="col-sm-4">
-        <i class="fas fa-4x fa-filter"></i>
-
-          <h2 class="h3">Filtered Prefrences</h2>
-
-          <p>Profiles are filtered through</p>
-        </div>
+       
       </div>
     </div>
   </section>
 
-  <section id="folio" class="sec-folio">
-    <div class="container">
-      <h1>Product Gallery</h1>
 
-      <hr />
-
-      <div class="row">
-        <div class="col-sm-4">
-          <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
-        </div>
-
-        <div class="col-sm-4">
-          <img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
-        </div>
-
-        <div class="col-sm-4">
-          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
-        </div>
-  
-     
-
-      </div>
-    </div>
-  </section>
+<p></p>
 
   <section id="services" class="sec-services">
     <div class="container">

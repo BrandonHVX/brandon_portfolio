@@ -54,7 +54,10 @@ body {
     margin:1em 0;
 }
 
-
+a {
+  color: #4BA8CC;
+	text-decoration:none;
+}
 
 .wrapper {
     width: 90%;
@@ -117,15 +120,14 @@ body {
 }
 .concentration{ font-weight:normal; font-style:italic; }
 .org{
-    font-size:.975em;
-    margin-bottom: 40px;
+    font-size:.875em;
 }
 .time-frame{
     font-size:.875em;
 }
 .description{
     color:#5b5b5b;
-    font-size:1em;
+    font-size:.875em;
 }
 .tag-cloud{ font-size:.8125em; }
 .tag{ display:inline-block; margin-right:.333em; }
@@ -139,13 +141,7 @@ body {
 }
 
 
-.section-content{
-    display:none;
-    padding:0 .25em 0.625em 1em;
-}
-.expanded .section-content{
-    display:block;
-}
+
 
 .download-link{
 	text-align:right;
@@ -155,15 +151,17 @@ body {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 480px) {
+    .header-container .pos-a{ float:center; margin-right:5%; width:97.5%; }
 
     
     .me{
-        font-size:5em;
-        
+        font-size:7em;
+        text-align:center;
+        margin-left: 20px;
     }
     .title{
-        text-align:center;
+        text-align:left;
     }
     .section-heading{
         background:none;
@@ -171,9 +169,7 @@ body {
         padding: .3em 0;
     }
     
-    .section-content{
-        display:block;
-    }
+  
 	
 	.focus{
 		padding-right: 2.333em;
@@ -181,21 +177,15 @@ body {
 	.time-frame{
 		font-size:0.9375em;
 		position:absolute;
-		
+		right:0;
+		top:0;
 	}
 }
 
 @media only screen and (min-width: 710px) {
     .pos-a, .pos-b{float:left;}
-    .pos-a{width:100%; margin-right:5%;}
+    .pos-a{width:67.5%; margin-right:5%;}
     .pos-b{width:27.5%;}
-
-    .blurb{
-        clear:left;
-        color:#5b5b5b;
-        padding-top: 20px;
-    }
-
 }
 
 @media only screen and (min-width: 1140px) {
@@ -220,10 +210,7 @@ body {
     height: 100%;
 }
 
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
+
 
 .visuallyhidden {
     border: 0;
@@ -324,7 +311,7 @@ body {
     
     .me{
         font-size:7em;
-        text-align: center;
+        text-align:center;
     }
     .title{
         text-align:left;
@@ -334,10 +321,7 @@ body {
         border-bottom: 2px solid #E9E9E9;
     }
     
-    .section-content{
-        display:block;
-    }
-	
+ 
 	.focus{
 		padding-right: 2.333em;
 	}

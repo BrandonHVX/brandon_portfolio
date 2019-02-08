@@ -1,7 +1,7 @@
 import React , {Component} from "react";
 import Button from '@material-ui/core/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import phone from '../images/iphone.png';
+import nyxphone from '../images/nyx-phone.png';
 import nyx from '../images/nyxlogo.png';
 
 class NyxCard extends Component {
@@ -13,7 +13,7 @@ class NyxCard extends Component {
 
  <section id="home" class="sec-main-nyx">
  
- <img class="phone" style={{ maxHeight: '400px' }} src={phone}/>
+ <img class="phone" style={{ maxHeight: '400px' }} src={nyxphone}/>
      <div class="main-heading"><img class="synergylogo" src={nyx}/>
 
     <h1>NEW YORK NEWS SITE </h1> </div>

@@ -24,7 +24,7 @@ import Button from '@material-ui/core/Button';
 
 const opts = {
 
-	playerVars: { 'autoplay': 1, 'controls': 0 },
+	playerVars: {  'controls': 0 },
 	}
 
 class BandsCard extends React.Component {
@@ -70,11 +70,7 @@ class BandsCard extends React.Component {
 
 </div>
 
-		  
-
-
-
-		
+	
 	
 
 
