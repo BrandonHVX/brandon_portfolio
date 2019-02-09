@@ -83,9 +83,9 @@ function DigitalMedia() {
 
    
       
-<BandsCard />
+<p class="videocard"><BandsCard /></p>
 
- <SalonCard />
+ <p class="videocard"><SalonCard /></p>
 
 
 

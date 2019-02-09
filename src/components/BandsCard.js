@@ -40,9 +40,9 @@ class BandsCard extends React.Component {
 	  
 	render() {
 	  return (
-		
+
 			<div class="bands-card">
-	<div class="cards"/>
+	<div class="cards">
 		
 	
 		
@@ -67,8 +67,9 @@ class BandsCard extends React.Component {
 
 
 
-
 </div>
+</div>
+
 
 	
 	
