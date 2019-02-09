@@ -30,7 +30,7 @@ class Synergy extends Component {
     <div class="one-half column ">
         <img class="phone" src={nyxpage}/>
    </div>
-    <div class="one-half column text ">
+    <div class="one-half column ">
     
       <h5 class="hero-heading">   
 NYX NEWS is the new way to get your daily top stories from The New York Times. Our platform allows you to easily select your favorite three sections from the New York Times and displays in a new and creative format.

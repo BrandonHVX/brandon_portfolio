@@ -11,6 +11,7 @@ import './css/resume.css';
 import './css/webdev.scss';
 import './css/normalize.css';
 import './css/skeleton.css';
+import './css/lightbox.css';
 
 
 

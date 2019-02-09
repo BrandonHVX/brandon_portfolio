@@ -19,6 +19,7 @@ import ScrollTop from './components/ScrollTop.js';
 import NYXcard from './components/NYXcard.js';
 import NYX from './components/NYX.js';
 import Chip from '@material-ui/core/Chip';
+import LightboxExample from './components/Lightbox.js';
 
 function Landing() {
      return(
@@ -104,7 +105,7 @@ function Design() {
     
 <div class="title">
 <Chip label="Design" variant="outlined" color="primary"/>
-
+<LightboxExample />
 </div>
 
  <Navi />    
