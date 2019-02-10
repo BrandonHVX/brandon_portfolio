@@ -39,7 +39,7 @@ class Resume extends Component {
                             </div>
         
                             
-                            <p class="description"> Responsible for managing content on all social media platforms. Produced and designed visual advertisements for online events and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook, Instagram and other digital ads. Assited with new front end development plans and preparation to implement React.js for enhanced user experience.</p>
+                            <p class="description"> Responsible for managing content on all social media platforms. Produced and designed visual advertisements for online events and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook, Instagram and other digital ads. Assisted with new front end development plans and preparation to implement React.js for enhanced user experience.</p>
                         </section>
                         <section class="sub-section">
                             <h1 class="focus">Wyncode Academy</h1>
