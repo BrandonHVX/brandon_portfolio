@@ -102,7 +102,7 @@ function DigitalMedia() {
 function Design() {
   return (
     <div class="page">
-    
+    <Header />
 <div class="title">
 <Chip label="Design" variant="outlined" color="primary"/>
 <LightboxExample />

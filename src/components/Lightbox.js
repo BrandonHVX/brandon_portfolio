@@ -3,10 +3,25 @@ import Lightbox from  "react-lightbox-component";
  
 var images = [
     {
-      src: "https://source.unsplash.com/Oog0wehKxYs/450x450",
+      src:  require("../images/ic50.png"),
       title: 'image title',
-      description: 'image description'
-    }
+      description: 'image description',
+    },
+    {
+        src:  require("../images/tides.jpg"),
+        title: 'image title',
+        description: 'image description',
+      },
+      {
+        src:  require("../images/zoe911.png"),
+        title: 'image title',
+        description: 'image description',
+      },
+      {
+        src:  require("../images/kidslogo.png"),
+        title: 'image title',
+        description: 'image description',
+      }
   ]; 
  
 export default class LightboxExample extends Component {
@@ -18,16 +33,8 @@ export default class LightboxExample extends Component {
     return (
         <Lightbox
         images={images}
-        renderImageFunc={(idx, image, toggleLightbox, width, height) => {
-          return (
-            <img
-              key={idx}
-              src={image.src}
-              className='img-circle'
-              style={{width: width, height: height}}
-              onClick={toggleLightbox.bind(null, idx)} />
-          )
-        }}/>
+        thumbnailWidth='150px'
+        thumbnailHeight='150px'/>
  
 
     );

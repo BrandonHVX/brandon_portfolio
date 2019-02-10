@@ -1,4 +1,16 @@
 
+.images{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+
+
+
 
 
 .bands-card {
