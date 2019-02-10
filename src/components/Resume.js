@@ -92,11 +92,11 @@ class Resume extends Component {
                     <h1 class="section-heading">Skills / Expertise</h1>
                     <div class="section-content">
                         <ol class="tag-cloud">
-                            <li class="tag lvl-b">Avid understanding and experience in JavaScript, React.js, Express.js, Ruby on Rails, HTML and CSS.</li>
-                            <li class="tag lvl-b">Proficient in interpreting Json data using React.js for dynamic and interactive front end development.</li>
-                            <li class="tag lvl-b">Complete and in-depth understanding of creating custom components in React.js</li>
-                            <li class="tag lvl-b">Exceptional communication and interpersonal skills  when collaborating with designers and back-end developers to implement and improve features </li>
-                            <li class="tag lvl-b">In depth knowledge and experience using Microsoft Visual Code, Adobe Creative Suite, Final Cut Pro, Adobe XD and Sketch for coding, multimedia design, creation of visual content and prototyping.</li>
+                            <li class="tag lvl-b">Expertise in producing  video content for digital advertisements and marketing campaigns.</li>
+                            <li class="tag lvl-b">Comprehensive understanding and experience in JavaScript, React.js, Express.js, Ruby on Rails, HTML and CSS.</li>
+                            <li class="tag lvl-b">Proficient in using HTTP requests with React.js. and Express.js to interpret Json data from existing API’s.</li>
+                            <li class="tag lvl-b">In depth knowledge and experience using Microsoft Visual Code, Adobe Creative Suite, Final Cut Pro, Adobe XD and Sketch for coding, multimedia design, creation of visual content and prototyping.
+</li>
                         </ol>
                     </div>
                 </section>
