@@ -53,7 +53,11 @@
   padding: 0px 3px 0px 10px;
     margin: auto;
     justify-content: center;
-    background-color: rgb(0, 153, 255);
+    background: url(' ../images/slide-4.jpg ') no-repeat center center;
+    background-color:rgb(0, 153, 255);
+    background-blend-mode: overlay;
+background-position: bottom right;
+
     height: 90px;
     width: 100%;
     text-align: center;

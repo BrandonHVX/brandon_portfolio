@@ -35,11 +35,11 @@ class Resume extends Component {
                         <section class="sub-section">
                             <h1 class="focus">Florida Film House</h1>
                             <div class="org">Digital Content Manager
-                            <p class="time-frame">September 2016 - Present</p>
+                            <p class="time-frame">October 2017 - Present</p>
                             </div>
         
                             
-                            <p class="description"> Responsible for managing content on and all social media platforms. Produced and designed visual advertisements for online product and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook and other digital ads. Assited with new front end development plans and preparation to implement React.js for enhanced user experience</p>
+                            <p class="description"> Responsible for managing content on all social media platforms. Produced and designed visual advertisements for online events and brand marketing campaigns. Generated ongoing content and engagement ideas including on-line events, strategic placement of Facebook, Instagram and other digital ads. Assited with new front end development plans and preparation to implement React.js for enhanced user experience.</p>
                         </section>
                         <section class="sub-section">
                             <h1 class="focus">Wyncode Academy</h1>
@@ -48,8 +48,7 @@ class Resume extends Component {
                       
 
 
-                            <p class="description">Designed and developed workout friend finder application using Ruby on Rails for database manage-
-ment and React.js for front-end user experience. Interpreted Json data from existing API’s to match user interface design using React.js, CSS and SASS for interactive front end development. Collaborated and communicated with other developers through group standups and GitHub workflow to increase performance.
+                            <p class="description">Designed and developed workout friend finder application using Ruby on Rails for database management and React.js for front-end user experience. Interpreted Json data from existing API’s to match user interface design using React.js, CSS and SASS for interactive front end development. Collaborated and communicated with other developers through group standups and GitHub workflow to increase performance.
 </p>
                         </section>
                         <section class="sub-section">

@@ -118,7 +118,7 @@ class Synergy extends Component {
         <i class="fab fa-4x fa-react"></i>
         <h2 class="h3">React.js</h2>
 
-          <p>Dynamic front-end with real time updates to enhace user experience.</p>
+          <p>Dynamic front-end with real time updates to enhance user experience.</p>
         </div>
 
         <div class="col-md-4">
@@ -126,7 +126,7 @@ class Synergy extends Component {
      
         <h2 class="h3">Ruby</h2>
 
-<p> Implemtation of Devise, Paperclip and Geocoder gems for user authorization, uploading of images and distance/location of users.</p>
+<p> Implementation of Devise, Paperclip and Geocoder gems for user authorization, uploading of images and distance/location of users.</p>
         </div>
         <div class="col-md-4">
       

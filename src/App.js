@@ -21,12 +21,41 @@ import NYX from './components/NYX.js';
 import Chip from '@material-ui/core/Chip';
 import LightboxExample from './components/Lightbox.js';
 
+function Greeting() {
+	var i = 0;
+	var hour = new Date().getHours();
+	var dayParts = [6,12,18,24];//Keep in this order	
+	var greetings = [
+		'Its a Great Night', //this too
+		'Good Morning',
+		'Good Afternoon',
+		'Good Evening',
+	];
+
+	var greet = function() {
+		if( hour < dayParts[i] ) {
+			return greetings[i];
+		}
+		else{	
+			i++;
+			return greet();
+		}
+	};
+	return greet();
+}
+
+
+
 function Landing() {
      return(
 <div class="landing">
+<div class="landing-section">
 <img src ={bgheader} />
-<Link to="/home/web-development">View My Work</Link>
+<p class ="landing-text">Hello <Greeting />!, Thank You for visiting my portfolio site. I specialize in coding full stack web applications and producing branded visual content. </p>
+<div class="card-button"><Button variant="contained" color="primary" >
+<Link to="/home/web-development" > View My Work</Link></Button></div>
 
+</div>
 </div>
   )
 }
