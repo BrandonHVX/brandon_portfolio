@@ -49,7 +49,7 @@ class Synergy extends Component {
     <div class="one-half column text ">
     
       <h6 class="hero-heading"> Synergy connects users with similar fitness goals to produce a greater workout experience. 
-      Inspired by popular dating apps like Tinder and Bumble. Synergy allows users to simpley swipe left or right to match with other users.
+      Inspired by popular dating apps like Tinder and Bumble. Synergy allows users to simply swipe left or right to match with other users.
 </h6>
     </div>
   </div>
@@ -87,7 +87,7 @@ class Synergy extends Component {
         <div class="col-sm-4">
         <i class="fas fa-4x fa-filter"></i>
 
-          <h2 class="h3">Filtered Prefrences</h2>
+          <h2 class="h3">Filtered Preferences</h2>
 
           <p>Profiles are filtered through your selected prefrences including age, activities and location.</p>
         </div>
