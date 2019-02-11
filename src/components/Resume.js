@@ -23,7 +23,7 @@ class Resume extends Component {
                     <h1 class="me">Brandon Gines</h1>
            
                 </div>
-                <p class="blurb">  Experienced creative professional with cross-functional skills including expertise in  full stack web development, film/video production and digital design, product marketing, customer service and client engagement. </p>
+                <p class="blurb"> Creative self-motivated professional with cross-functional skills including expertise in digital media, full stack web development, graphic design, brand/product marketing, project management and client engagement.  </p>
             </header>
         </div>
 
