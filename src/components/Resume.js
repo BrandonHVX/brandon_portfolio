@@ -57,7 +57,7 @@ class Resume extends Component {
                             <p class="time-frame"> September 2012 – August 2015</p>
                             </div>
                             
-                            <p class="description">Responsible for all aspects of video production including meeting with clients determine their communications needs, developing concepts and script content, and filming and editing to produce video content.
+                            <p class="description">Responsible for all aspects of video production including meeting with clients to determine their communications needs, developing concepts and script content, and filming and editing to produce video content.
 </p>
                         </section>
                        

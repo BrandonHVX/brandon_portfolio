@@ -89,7 +89,7 @@ class Synergy extends Component {
 
           <h2 class="h3">Filtered Preferences</h2>
 
-          <p>Profiles are filtered through your selected prefrences including age, activities and location.</p>
+          <p>Profiles are filtered through your selected preferences including age, activities and location.</p>
         </div>
       </div>
     </div>
