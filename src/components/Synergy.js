@@ -140,7 +140,7 @@ class Synergy extends Component {
         <i class="devicon-bootstrap-plain"></i>
         <h2 class="h3">Bootstrap</h2>
 
-<p>React-Bootsrap for UI design including buttons, forms and menus.</p>
+<p>React-Bootstrap for UI design including buttons, forms and menus.</p>
         </div>
       </div>
     </div>

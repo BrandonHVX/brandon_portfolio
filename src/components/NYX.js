@@ -100,7 +100,7 @@ Dynamic buttons and interactive front end.
 
 <p>
 Backend development framework used to host The NY Times API.
-Intergration with Axios for HTTP request and responses of json data.
+Integration with Axios for HTTP request and responses of Json data.
 
 
 
