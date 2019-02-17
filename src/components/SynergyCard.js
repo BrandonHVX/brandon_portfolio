@@ -34,7 +34,7 @@ class SynergyCard extends Component {
      <div class="row">
        <div class="col-sm-6 col-sm-offset-3">
          <p> Social Media app designed to connect users in search of their next workout partner.</p>
-          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/synergy'><Button variant="contained" color="primary">View Project</Button></Link>
+          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/synergy'><Button class="card-button" variant="contained" color="primary">View Project</Button></Link>
 
            
            </p>

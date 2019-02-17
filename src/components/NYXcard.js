@@ -33,7 +33,7 @@ class NyxCard extends Component {
      <div class="row">
        <div class="col-sm-6 col-sm-offset-3">
          <p> Top News Stories site from New York Times API.</p>
-          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/nyx'><Button variant="contained" color="primary">View Project</Button></Link>
+          <p> <Link style={{ textDecoration: 'none' }} to='/web-development/nyx'><Button class="card-button"  variant="contained" color="primary">View Project</Button></Link>
 
            
            </p>

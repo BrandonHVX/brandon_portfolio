@@ -64,7 +64,7 @@ class SalonCard extends React.Component {
 <h3>Salatto Salon</h3>
 		Business profile and Interview with hair and beauty stylists from Salatto Salon.
 		  
-        <div class="card-button"><Button  variant="contained" color="primary"
+        <div ><Button class="button-blue" variant="contained" color="primary"
  onClick={this.showModal}> Watch Video</Button></div>
 		</p>
 

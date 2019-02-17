@@ -61,7 +61,7 @@ class BandsCard extends React.Component {
 
 <p class="cards-text"><h3>Bands by Taylor Alexandria</h3>
 	Business profile and interview with fashion designer Taylor Alexandria.
-<div class="card-button"><Button variant="contained" color="primary" 
+<div ><Button class="button-blue" variant="contained" color="primary" 
  onClick={this.showModal}> Watch Video</Button></div>
 		</p>
 

@@ -54,19 +54,52 @@ background-repeat: no-repeat;
 
 .card-button {
 	
-	position: initial;
+  position: initial;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	float: right;
 
-color: white;
+background-color: NONE;
+color: rgb(9, 98, 182);
+border: 2px solid rgb(9, 98, 182);
 }
 
 
-.card-button a {
+.card-button:hover {
 	
 
-
-color: white;
+  background-color: rgb(9, 64, 182);
+  color: white;
+  border: 2px solid rgb(9, 98, 182);
 }
+
+
+.button-blue {
+	
+  position: initial;
+  font-family: din-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	float: right;
+margin-top: 20px;
+background-color: rgb(9, 98, 182);
+color: white;
+border: 2px solid rgb(9, 98, 182);
+}
+
+
+.button-blue:hover {
+	
+  position: initial;
+	font-family: din-condensed, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	float: right;
+
+background-color:rgba(255, 255, 255, 0) ;
+color: white;
+border: 2px solid rgb(9, 98, 182);
+}
+
 
 
 
