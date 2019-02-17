@@ -52,8 +52,8 @@ function Landing() {
 <div class="landing-section">
 <img src ={bgheader} />
 <p class ="landing-text">Hello <Greeting />!, Thank You for visiting my portfolio site. I specialize in coding full stack web applications and producing branded visual content. </p>
-<div class="card-button"><Button variant="contained" color="primary" >
-<Link to="/home/web-development" > View My Work</Link></Button></div>
+<div class="card-button"><Link to="/home/web-development" ><Button variant="contained" color="primary" >
+ View My Work</Button></Link>   </div>
 
 </div>
 </div>
