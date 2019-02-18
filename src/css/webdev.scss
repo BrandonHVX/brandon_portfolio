@@ -155,9 +155,8 @@ body {
   font-weight: 300;
   text-align: center;
   letter-spacing: 9px;
-
   text-transform: uppercase;
- 
+  word-wrap: break-word;
 }
 .main-{
     font-family: 'Open sans', sans-serif;
@@ -335,7 +334,7 @@ hr {
   position: absolute;
   top: 90px;
   right: 0;
-
+  word-wrap: break-word;
   left: 0;
   z-index: -2;
   padding-bottom: 100px;

@@ -69,11 +69,16 @@ var images = [
         thumbnailHeight='370px'
      
         /> 
+
+		
+				     <div class="wrapper">
+       <div class="col-sm-6 col-sm-offset-3">
+         <p class="ux-text"> User friendly chat messager application created in Adobe XD</p>
 <Button class="button-ux" variant="contained" color="primary" 
  onClick={this.showModal}> View Prototype</Button>
-		 
+		 </div>
 
-
+</div>
 
 </div>
 </div>

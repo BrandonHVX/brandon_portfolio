@@ -134,7 +134,6 @@ function Design() {
     <Header />
 <div class="title">
 <Chip label="UX/UI Design" variant="outlined" color="primary"/>
-
 </div>
 
 <LightboxExample />

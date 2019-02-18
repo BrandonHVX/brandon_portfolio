@@ -9,10 +9,16 @@
 
 
 
-.uxpage {
-margin: 190px;
+.text {
 
-
+right: 0;
+left: 0;
+text-align: center;
+font-family: 'Open sans', sans-serif;
+font-weight: 300;
+text-align: center;
+letter-spacing: 9px;
+text-transform: uppercase;
 	
 }
 
@@ -30,7 +36,12 @@ background-repeat: no-repeat;
 	
 }
 
+.ux-text{
 
+color: black;
+
+text-align: center;
+}
 .salon-card {
 	position: relative;
 	width: 350px;

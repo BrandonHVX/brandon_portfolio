@@ -37,7 +37,9 @@ class Synergy extends Component {
       
       <img class="synergylogo" src={synergylogo}/>
 
-     <h1 >Your next workout partner is one swipe away.</h1> </div>
+     <h1>Your next workout partner is one swipe away.</h1> 
+     
+     </div>
   </section>
   
   <div class="section synphone">
