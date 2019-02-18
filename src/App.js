@@ -134,6 +134,9 @@ function Design() {
     <Header />
 <div class="title">
 <Chip label="Design" variant="outlined" color="primary"/>
+
+</div>
+<div class="subpage">
 <LightboxExample />
 </div>
 

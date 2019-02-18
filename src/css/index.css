@@ -52,7 +52,7 @@ position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10vh;
+  margin-bottom: 70vh;
   margin-top: 10vh;
 }
 
@@ -175,11 +175,20 @@ width: 25%;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 140px;
+    
   
   
   }
 
 
+  .page {
+    position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 100vh;
+      margin-top: 10vh;
+    }
 
 
 
@@ -189,7 +198,7 @@ width: 25%;
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 667px) {
   .bgheader img  {
     position: relative;
  
@@ -231,8 +240,9 @@ width: 25%;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-
+    margin-top: 100px;
     margin-bottom: 140px;
+
   
   
   }
