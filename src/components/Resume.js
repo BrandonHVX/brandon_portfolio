@@ -23,7 +23,7 @@ class Resume extends Component {
                     <h1 class="me">Brandon Gines</h1>
            
                 </div>
-                <p class="blurb"> Creative self-motivated professional with cross-functional skills including expertise in digital media, full stack web development, graphic design, brand/product marketing, project management and client engagement.  </p>
+                <p class="blurb"> Creative self-motivated professional with cross-functional skills including expertise in digital media, full stack web development, UX/UI design, brand/product marketing, project management and client engagement.  </p>
             </header>
         </div>
 
@@ -92,7 +92,7 @@ class Resume extends Component {
                     <h1 class="section-heading">Skills / Expertise</h1>
                     <div class="section-content">
                         <ol class="tag-cloud">
-                            <li class="tag lvl-b">Expertise in producing  video content for digital advertisements and marketing campaigns.</li>
+                            <li class="tag lvl-b">Expertise in producing ​ video content for digital advertisements, creating UX/UI designs for web applications, and graphic design for marketing campaigns.</li>
                             <li class="tag lvl-b">Comprehensive understanding and experience in JavaScript, React.js, Express.js, Ruby on Rails, HTML and CSS.</li>
                             <li class="tag lvl-b">Proficient in using HTTP requests with React.js. and Express.js to interpret Json data from existing API’s.</li>
                             <li class="tag lvl-b">In depth knowledge and experience using Microsoft Visual Code, Adobe Creative Suite, Final Cut Pro, Adobe XD and Sketch for coding, multimedia design, creation of visual content and prototyping.

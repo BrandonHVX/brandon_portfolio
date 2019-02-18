@@ -62,7 +62,7 @@ var images = [
       />
 			
 		  </Modal>
- <div class="main-heading-page">
+ <div class="main-heading-ux">
         <Lightbox
         images={images}
         thumbnailWidth='180px'
