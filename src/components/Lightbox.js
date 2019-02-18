@@ -45,7 +45,7 @@ var images = [
 	render() {
 	  return (
 
-			<div>
+			<div class="uxpage">
 
 		
 	
