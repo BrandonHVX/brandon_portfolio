@@ -133,7 +133,7 @@ function Design() {
     <div class="page">
     <Header />
 <div class="title">
-<Chip label="Design" variant="outlined" color="primary"/>
+<Chip label="UX/UI Design" variant="outlined" color="primary"/>
 
 </div>
 

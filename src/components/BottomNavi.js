@@ -36,7 +36,7 @@ changeColor(){
              
 <NavLink activeClassName='is-active' to="/home/web-development"><a><li class="icon fa fa-laptop-code" id="uno"></li>WEB DEV</a></NavLink>
 <NavLink activeClassName='is-active' to="/home/digital-media"><a><li class="icon fas fa-video" id="dos"></li>VIDEOS</a></NavLink>
-<NavLink activeClassName='is-active' to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>DESIGN</a></NavLink>
+<NavLink activeClassName='is-active' to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>UX/UI DESIGN</a></NavLink>
 <NavLink activeClassName='is-active' to="/home/resume"><a><li class="icon fas fa-file" id="cinco"></li>RESUME</a></NavLink>
 </ul>
      </div>
