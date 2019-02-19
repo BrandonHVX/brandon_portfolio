@@ -75,6 +75,11 @@
   .hero-heading {
     font-size: 2.4rem;
     padding: 40px 0 90px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    
+   
   }
   
 
@@ -162,7 +167,7 @@
       max-height: 338px;
     }
     .hero-heading {
-      font-size: 2.4rem;
+      font-size: 1.4rem;
       padding: 4rem 0 3rem;
     }
   }
@@ -173,7 +178,7 @@
       height: 190px;
     }
     .hero-heading {
-      font-size: 2.6rem;
+      font-size: 1.6rem;
       padding: 4rem 0 3rem;
     }
 
@@ -213,7 +218,7 @@
       padding: 12rem 0;
     }
     .hero-heading {
-      font-size: 3.0rem;
+      font-size: 2.0rem;
     }
     .phone {
       top: -6rem;

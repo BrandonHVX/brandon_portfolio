@@ -32,9 +32,9 @@ class Synergy extends Component {
   <section id="home" class="sec-main-syn">
   
 
-      <div class="main-heading-page">
-      <img class="phone" style={{ maxHeight: '260px' }} src={synlogin}/>
+    <img class="phone" style={{ maxHeight: '260px' }} src={synlogin}/> 
       
+       <div class="main-heading">
       <img class="synergylogo" src={synergylogo}/>
 
      <h1>Your next workout partner is one swipe away.</h1> 
@@ -48,7 +48,7 @@ class Synergy extends Component {
     <div class="one-half column ">
         <img class="phone" src={synphone}/>
    </div>
-    <div class="one-half column text ">
+    <div class="one-half column ">
     
       <h6 class="hero-heading"> Synergy connects users with similar fitness goals to produce a greater workout experience. 
       Inspired by popular dating apps like Tinder and Bumble. Synergy allows users to simply swipe left or right to match with other users.

@@ -13,17 +13,17 @@ const opts = {
 var images = [
     {
       src:  require("../images/iPhoneXS1.jpg"),
-      title: 'Beach Chat',
+      title: 'Beach Talk',
       description: 'Splash Page',
     },
     {
         src:  require("../images/iPhoneXS2.jpg"),
-        title: 'Beach Chat',
+        title: 'Beach Talk',
         description: 'Messages',
       },
       {
         src:  require("../images/iPhoneXS3.jpg"),
-        title: 'Beach Chat',
+        title: 'Beach Talk',
         description: 'Chat Page',
       },
       
@@ -63,6 +63,7 @@ var images = [
 			
 		  </Modal>
  <div class="main-heading-ux">
+
         <Lightbox
         images={images}
         thumbnailWidth='180px'
@@ -73,6 +74,7 @@ var images = [
 		
 				     <div class="wrapper">
        <div class="col-sm-6 col-sm-offset-3">
+			 <h1 class="ux-title">  Beach Talk  </h1>
          <p class="ux-text"> User friendly chat messager application created in Adobe XD</p>
 <Button class="button-ux" variant="contained" color="primary" 
  onClick={this.showModal}> View Prototype</Button>

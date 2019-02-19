@@ -33,7 +33,7 @@ class SimpleBottomNavigation extends Component {
 
  <Link to="/home/web-development"><a><li class='icon fas fa-arrow-circle-left' id="uno"></li>BACK</a></Link>
 <Link to="/home/digital-media"><a><li class="icon fas fa-video" id="dos"></li>VIDEOS</a></Link>
-<Link to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>DESIGN</a></Link>
+<Link to="/home/design"><a><li class="icon fas fa-palette" id="tres"></li>UX/UI DESIGN</a></Link>
 <Link to="/home/resume"><a><li class="icon fas fa-file" id="cinco"></li>RESUME</a></Link>
 </ul>
      </div>

@@ -16,9 +16,9 @@ class Synergy extends Component {
   <section id="home" class="sec-main-nyx">
   
 
-      <div class="main-heading-page">
       <img class="phone" style={{ maxHeight: '260px' }} src={nyxphone}/>
       
+      <div class="main-heading">
       <img class="synergylogo" src={nyx}/>
 
      <h3 >New York Times: Top Stories API </h3> </div>
