@@ -75,7 +75,7 @@ var images = [
 				     <div class="wrapper">
        <div class="col-sm-6 col-sm-offset-3">
 			 <h4 class="ux-title">  Beach Talk  </h4>
-         <p class="ux-text"> User friendly chat messager application created in Adobe XD</p>
+         <p class="ux-text"> User friendly chat messenger application created in Adobe XD</p>
 <Button class="button-ux" variant="contained" color="primary" 
  onClick={this.showModal}> View Prototype</Button>
 		 </div>
