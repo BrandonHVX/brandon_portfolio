@@ -47,7 +47,7 @@ class BandsCard extends React.Component {
             <div className="close" />
 
             <YouTube
-              videoId="FE5VhXSu3TU&t=3s"
+              videoId="FE5VhXSu3TU&t"
               opts={opts}
               className="youtube-video"
             />
