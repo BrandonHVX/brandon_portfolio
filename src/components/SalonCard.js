@@ -53,7 +53,7 @@ class SalonCard extends React.Component {
 		
 			
 			<YouTube
-        videoId="wXFA-SFZaTc"
+        videoId="v9K2JFFpQjE"
         opts={opts} className="youtube-video"
         
       />
